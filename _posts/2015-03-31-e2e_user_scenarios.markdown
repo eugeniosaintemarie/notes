@@ -3,7 +3,7 @@ layout:     post
 title:      "Definition of End to End User Scenarios"
 date:       2015-03-31 
 author:     ""
-header-img: "inpost/img/post-bg-e2e-ux.jpg"
+header-img: "img/inpost/post-bg-e2e-ux.jpg"
 lang: en
 tags:
   - UX/UI
