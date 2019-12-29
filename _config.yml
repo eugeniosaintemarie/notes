@@ -1,6 +1,6 @@
 title: Eugenio Sainte Marie
 SEOTitle: Eugenio Sainte Marie | Blog
-header-img: img/home-bg.jpg
+header-img: sys/img/home-bg.jpg
 email: e.saintemarie@outlook.com
 description: ""
 keyword: ""
@@ -10,14 +10,14 @@ baseurl: "/blog"
 future: true
 
 RSS: false
-twitter_username:   ugeniosm
-linkedin_username:  
-github_username:    
+twitter_username: ugeniosm
+linkedin_username:
+github_username:
 
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json"]
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json"]
 anchorjs: true
 
 plugins: [jekyll-paginate]
@@ -31,32 +31,32 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-disqus_username: 
+disqus_username:
 
 # Google Analytics
-ga_track_id: '' #Format: UA-xxxxxx-xx
-ga_domain: 
+ga_track_id: "" #Format: UA-xxxxxx-xx
+ga_domain:
 
 # Sidebar settings
 sidebar: true
 sidebar-about-description: ""
-#sidebar-avatar: img/avatar.jpg
+#sidebar-avatar: sys/img/avatar.jpg
 
 # Tags
 featured-tags: true
 featured-condition-size: 1
 
 # Friends
-friends: [
-    # {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # }
-]
+friends: []
+
+# {
+#     title: "Su",
+#     href: "http://su.gallery/"
+# }
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
