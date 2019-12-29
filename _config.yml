@@ -11,6 +11,7 @@ future: true
 
 RSS: false
 twitter_username: ugeniosm
+istagram_username: eugeniosaintemarie
 linkedin_username:
 github_username:
 
@@ -48,11 +49,10 @@ featured-condition-size: 1
 
 # Friends
 friends: []
-
-# {
-#     title: "Su",
-#     href: "http://su.gallery/"
-# }
+{
+     title: "camara",
+     href: "https://eugeniosaintemarie.github.io/camera"
+}
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
