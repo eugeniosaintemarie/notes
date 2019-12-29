@@ -53,6 +53,11 @@ friends: []
      title: "camara",
      href: "https://eugeniosaintemarie.github.io/camera"
 }
+{
+     title: "gist",
+     href: "https://gist.github.com/eugeniosaintemarie"
+}
+
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
