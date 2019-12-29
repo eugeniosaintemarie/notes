@@ -11,7 +11,7 @@ future: true
 
 RSS: false
 twitter_username: ugeniosm
-istagram_username: eugeniosaintemarie
+istagram_username: 
 linkedin_username:
 github_username:
 
@@ -49,10 +49,6 @@ featured-condition-size: 1
 
 # Friends
 friends: []
-{
-     title: "camara",
-     href: "https://eugeniosaintemarie.github.io/camera"
-}
 {
      title: "gist",
      href: "https://gist.github.com/eugeniosaintemarie"
