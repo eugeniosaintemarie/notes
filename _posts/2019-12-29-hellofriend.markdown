@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "hellofriend"
+title:      "eps1.0_hellofriend.mov"
 date:       2019-12-29 
 author:     "e"
 header-img: "img/inpost/hellofriend.jpg"
