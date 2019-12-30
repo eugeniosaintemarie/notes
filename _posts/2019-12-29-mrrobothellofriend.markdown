@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "eps1.0_hellofriend.mov"
+title:      "mr.robot_eps1.0_hellofriend.mov"
 date:       2019-12-29 
 author:     ""
-header-img: "img/posts/2019-12-29-hellofriend.jpg"
+header-img: "img/posts/2019-12-29-mrrobothellofriend.jpg"
 lang: 
 tags:
   - Peliculas/Series
