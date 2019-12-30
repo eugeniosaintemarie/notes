@@ -1,5 +1,5 @@
 ---
-layout:     keynote
+layout:     default
 title:      "eps2.1_k3rnel-pan1c.ksd"
 date:       2019-12-29 
 author:     ""
