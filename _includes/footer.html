@@ -7,7 +7,7 @@
                 <!--{% include sns-links.html center=true %}-->
 
                 <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    {{ site.title }} &copy; {{ site.time | date: '%Y' }}
                 </p>
             </div>
         </div>
@@ -190,7 +190,7 @@
     // handle select change
     function onLanChange(index){
         if(index == 0){
-            lang = "zh"
+            lang = "es"
         }else{
             lang = "en"
         }
