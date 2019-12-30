@@ -3,6 +3,10 @@ layout: page
 description: ""
 ---
 
+<style>
+  .navbar-header .page-scroll {display: none !important;}
+</style>
+
 {% for post in paginator.posts %}
 <div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl }}">
