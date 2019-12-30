@@ -2,9 +2,9 @@
 layout:     post
 title:      "eps1.0_hellofriend.mov"
 date:       2019-12-29 
-author:     "e"
+author:     ""
 header-img: "img/inpost/hellofriend.jpg"
-lang: en
+lang: es
 tags:
   - Peliculas/Series
 ---
