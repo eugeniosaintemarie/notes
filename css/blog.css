@@ -1686,3 +1686,19 @@ img::-moz-selection {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
+/*DARKSIDE*/
+body {
+  background-color: black !important;
+}
+.post-preview > a > .post-title {
+  color: #f8f8f8 !important;
+}
+.post-preview > a > .post-title:hover {
+  color: #0085a1 !important;
+}
+.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
+  background-color: none !important
+}
+hr {
+  display: none !important;
+}
