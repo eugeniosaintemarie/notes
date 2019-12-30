@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "eps2.1_k3rnel-pan1c.ksd"
+title:      "mr.robot_eps2.1_k3rnel-pan1c.ksd"
 date:       2019-12-29 
 author:     ""
-header-img: "img/posts/2019-12-29-kernelpanic.jpg"
+header-img: "img/posts/2019-12-29-mrrobotkernelpanic.jpg"
 lang: 
 tags:
   - Peliculas/Series
