@@ -1704,5 +1704,11 @@ hr {display: none !important;}
     font-weight: 700;
 }
 .post-container .pager li a span:hover {color: #f8f8f8 !important}
-@media only screen and (max-width: 767px) {#blog_navbar a {color: black !important;}}
+@media only screen and (max-width: 767px) {
+	#blog_navbar a {color: black !important;}
+	.list-inline {
+    		margin-top: 25px !important;
+    		margin-bottom: -5px !important;
+	}
+}
 @media only screen and (min-width: 767px) {footer .list-inline {display: none !important}}
