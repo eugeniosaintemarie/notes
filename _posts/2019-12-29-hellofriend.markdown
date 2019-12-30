@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     page
 title:      "eps1.0_hellofriend.mov"
 date:       2019-12-29 
 author:     ""
