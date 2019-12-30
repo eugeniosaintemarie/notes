@@ -2,9 +2,9 @@
 layout:     post
 title:      "hellofriend"
 date:       2019-12-29 
-author:     ""
+author:     "e"
 header-img: "img/inpost/hellofriend.jpg"
-lang: es
+lang: en
 tags:
   - Peliculas/Series
 ---
