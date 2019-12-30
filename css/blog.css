@@ -1688,14 +1688,17 @@ img::-moz-selection {
 }
 /*DARKSIDE*/
 body {background-color: black !important;}
-.post-preview > a > .post-title {color: #f8f8f8 !important;}
-.post-preview > a > .post-title:hover {color: #0085a1 !important;}
-.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {background-color: none !important;}
-hr {display: none !important;}
 .navbar-custom.is-fixed {
 		background-color: black !important;
 		border-bottom: none !important;
 }
-.navbar-custom.is-fixed a {color: #f8f8f8 !important;}
+.navbar-custom.is-fixed .navbar-brand, .navbar-right a {color: #f8f8f8 !important;}
+hr {display: none !important;}
+.post-preview > a > .post-title {color: #f8f8f8 !important;}
+.post-preview > a > .post-title:hover {color: #0085a1 !important;}
+.tags a:hover {background-color: none !important;}
 .post-container p {color: #f8f8f8 !important;}
+.post-container .pager li  a span {
+    color: grey;
+    font-weight: 700;
 }
