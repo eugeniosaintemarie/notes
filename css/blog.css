@@ -1696,9 +1696,12 @@ body {background-color: black !important;}
 hr {display: none !important;}
 .post-preview > a > .post-title {color: #f8f8f8 !important;}
 .post-preview > a > .post-title:hover {color: #0085a1 !important;}
-.tags a:hover {background-color: none !important;}
+.tags a:hover {background: none !important;}
+.sidebar-container a {color: none !important;}
 .post-container p {color: #f8f8f8 !important;}
 .post-container .pager li  a span {
-    color: grey;
+    color: black;
     font-weight: 700;
 }
+@media only screen and (max-width: 767px) {#blog_navbar a {color: black !important;}}
+@media only screen and (min-width: 767px) {}
