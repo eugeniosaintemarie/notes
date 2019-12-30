@@ -48,12 +48,12 @@ featured-tags: true
 featured-condition-size: 1
 
 # Friends
-friends: []
-{
+friends: [
+  {
      title: "gist",
      href: "https://gist.github.com/eugeniosaintemarie"
-}
-
+  }
+]
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
