@@ -1697,6 +1697,7 @@ hr {display: none !important;}
 .post-preview > a > .post-title {color: #f8f8f8 !important;}
 .post-preview > a > .post-title:hover {color: #0085a1 !important;}
 .tags a:hover {background: none !important;}
+.sidebar-container .tags a {color: white !important;}
 .sidebar-container a {color: initial !important;}
 .post-container p {color: #f8f8f8 !important;}
 .post-container .pager li  a span {
