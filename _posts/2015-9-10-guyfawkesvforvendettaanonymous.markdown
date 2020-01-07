@@ -9,12 +9,12 @@ tags:
   - Articulos
 ---
 
-![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/https://github.com/eugeniosaintemarie/blog/img/posts/2015-9-10-guyfawkesvforvendettaanonymous0.jpg)
+![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}//img/posts/2015-9-10-guyfawkesvforvendettaanonymous0.jpg)
 > “V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue
 Popularizada por la novela gráfica escrita por Alan Moore e ilustrada principalmente por David Lloyd, más tarde masificada por la película dirigida por James McTeigue, “V for Vendetta” tiene origen en el año 1604, por un hombre llamado Guy Fawkes.
 
 ## Guy Fawkes
-![1570 – 1606]({{site.baseurl}}/https://github.com/eugeniosaintemarie/blog/img/posts/2015-9-10-guyfawkesvforvendettaanonymous1.jpg)
+![1570 – 1606]({{site.baseurl}}/img/posts/2015-9-10-guyfawkesvforvendettaanonymous1.jpg)
 > 1570 – 1606
 Guy Fawkes fue uno de los muchos recusantes que hubo en Inglaterra entre los siglos XVI y XVII. Defendió por encima de todo la religión católica, pese a ser algo perseguido tras el establecimiento de la Iglesia Anglicana tras la reforma protestante.
 
