@@ -6,7 +6,7 @@ author:     ""
 header-img: "img/posts/2019-12-29-mrrobothellofriend.jpg"
 lang: 
 tags:
-  - Peliculas/Series
+  - Películas/Series
 ---
 
 -¿Qué es lo que tanto te decepciona de la sociedad?
