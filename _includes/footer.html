@@ -7,7 +7,7 @@
                 {% include sns-links.html center=true %}
 
                 <p class="copyright text-muted">
-                    {{ site.title }} &copy; {{ site.time | date: '%Y' }}
+                    <a href="/aboutme" style="text-decoration: none; color: #777;">{{ site.title }}</a> &copy; <span id="year"></span>
                 </p>
             </div>
         </div>
@@ -32,6 +32,7 @@
 
 <!-- async load function -->
 <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
     function async(u, c) {
       var d = document, t = 'script',
           o = d.createElement(t),
