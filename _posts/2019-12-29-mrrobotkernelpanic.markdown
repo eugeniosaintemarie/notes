@@ -6,7 +6,7 @@ author:     ""
 header-img: "img/posts/2019-12-29-mrrobotkernelpanic.jpg"
 lang: 
 tags:
-  - Peliculas/Series
+  - Películas/Series
 ---
 
 -Dios puede ayudarte.
