@@ -6,7 +6,7 @@ author:     ""
 header-img: "img/posts/2015-9-10-guyfawkesvforvendettaanonymous.jpg"
 lang: 
 tags:
-  - Artículos
+  - Articulos
 ---
 
 ![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}//img/posts/2015-9-10-guyfawkesvforvendettaanonymous0.jpg)
