@@ -5,7 +5,8 @@ subtitle:   "eps1.0"
 date:       2019-12-29 
 author:     ""
 header-img: "img/posts/2019-12-29-mrrobothellofriend.jpg"
-lang: 
+catalog:    false
+multilingual: true
 tags:
   - Peliculas/Series
 ---
