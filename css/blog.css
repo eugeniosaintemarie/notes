@@ -1700,6 +1700,7 @@ body {background-color: black !important;}
 .tags a:hover {background: none !important;}
 .sidebar-container .tags a {color: white !important;}
 .sidebar-container a {color: initial !important;}
+.post-container h1, .post-container h2, .post-container h3, .post-container h4, .post-container h5, .post-container h6 {color: white !important;}
 .post-container p {color: #f8f8f8 !important;}
 .post-container .pager li  a span {
     color: black;
