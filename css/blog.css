@@ -1686,6 +1686,8 @@ img::-moz-selection {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
+/*CUSTOMe*/
+hr {display: none !important;}
 /*DARKSIDE*/
 body {background-color: black !important;}
 .navbar-custom.is-fixed {
@@ -1693,7 +1695,6 @@ body {background-color: black !important;}
 		border-bottom: none !important;
 }
 .navbar-custom.is-fixed .navbar-brand, .navbar-right a {color: #f8f8f8 !important;}
-hr {display: none !important;}
 .post-preview > a > .post-title {color: #f8f8f8 !important;}
 .post-preview > a > .post-title:hover {color: #0085a1 !important;}
 .tags a:hover {background: none !important;}
