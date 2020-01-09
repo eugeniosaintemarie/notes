@@ -4,6 +4,7 @@ title:      "Guy Fawkes, V for Vendetta, Anonymous"
 date:       2015-9-10 
 author:     ""
 header-img: "img/posts/2015-9-10-guyfawkesvforvendettaanonymous.jpg"
+catalog:    true
 lang: 
 tags:
   - Articulos
