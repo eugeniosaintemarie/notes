@@ -35,7 +35,7 @@ kramdown:
 disqus_username:
 
 # Google Analytics
-ga_track_id: "" #Format: UA-xxxxxx-xx
+ga_track_id: "UA-82621918-1" #Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
