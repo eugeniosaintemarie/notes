@@ -3,10 +3,10 @@
     "title": "Eugenio Sainte Marie | Blog",
     "author": "Eugenio Sainte Marie <e.saintemarie@outlook.com>",
     "version": "1.0",
-    "homepage": "http://eugeniosaintemarie.github.io/blog-v1",
+    "homepage": "http://eugeniosaintemarie.github.io/blog",
     "repository": {
         "type": "git",
-        "url": "https://github.com/eugeniosaintemarie/blog-v1"
+        "url": "https://github.com/eugeniosaintemarie/blog"
     },
     "bugs": "",
     "devDependencies": {

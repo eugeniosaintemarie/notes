@@ -5,7 +5,7 @@ email: e.saintemarie@outlook.com
 description: ""
 keyword: "Eugenio, Sainte Marie, blog"
 url: "https://eugeniosaintemarie.github.io"
-baseurl: "/blog-v1"
+baseurl: "/blog"
 
 future: true
 
