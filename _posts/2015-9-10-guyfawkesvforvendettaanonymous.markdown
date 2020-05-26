@@ -10,13 +10,13 @@ tags:
   - Articulos
 ---
 
-![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/2015-9-10-guyfawkesvforvendettaanonymous0.jpg)
+![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in_post/2015-9-10-guyfawkesvforvendettaanonymous0.jpg)
 > “V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue
 Popularizada por la novela gráfica escrita por Alan Moore e ilustrada principalmente por David Lloyd, más tarde masificada por la película dirigida por James McTeigue, “V for Vendetta” tiene origen en el año 1604, por un hombre llamado Guy Fawkes.
 
 
-## Guy Fawkes
-![1570 – 1606]({{site.baseurl}}/img/posts/2015-9-10-guyfawkesvforvendettaanonymous1.jpg)
+### Guy Fawkes
+![1570 – 1606]({{site.baseurl}}/img/posts/in_post/2015-9-10-guyfawkesvforvendettaanonymous1.jpg)
 > 1570 – 1606
 Guy Fawkes fue uno de los muchos recusantes que hubo en Inglaterra entre los siglos XVI y XVII. Defendió por encima de todo la religión católica, pese a ser algo perseguido tras el establecimiento de la Iglesia Anglicana tras la reforma protestante.
 
@@ -29,8 +29,8 @@ Gracias a la tortura hacia él, consiguieron que confesara los nombres del resto
 Esta ejecución pasó a la historia de Inglaterra como un día para celebrar la noche en la que los traidores fueron ajusticiados, en la que recreaban a Guy Fawkes con una máscara.
 
 
-## “V de Vendetta”
-![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/2015-9-10-guyfawkesvforvendettaanonymous2.jpg)
+### “V de Vendetta”
+![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in_post/2015-9-10-guyfawkesvforvendettaanonymous2.jpg)
 > “V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo
 
 Tal vez, de no ser porque este personaje fue recuperado en “V de Vendetta”, de Alan Moore, se lo hubiese recordado solo de la anterior manera.
@@ -38,8 +38,8 @@ El cómic está ambientado en una Inglaterra que tras una guerra nuclear, es som
 En cuanto a la película, trata de representar la misma historia que la novela gráfica, aunque el escritor de ésta, Alan Moore, no estuvo de acuerdo con algunos aspectos del guion por lo que exigió que su nombre se retirara de los créditos de la película. Por otro lado, el ilustrador David Lloyd sí apoyó la adaptación, apareciendo acreditado.
 
 
-## Anonymous
-![Anonymous]({{site.baseurl}}/img/posts/2015-9-10-guyfawkesvforvendettaanonymous3.jpg)
+### Anonymous
+![Anonymous]({{site.baseurl}}/img/posts/in_post/2015-9-10-guyfawkesvforvendettaanonymous3.jpg)
 > Lema: “Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us!” / Traducción: “El conocimiento es libre. Somos Anónimos. Somos Legión. No perdonamos. No olvidamos. ¡Espéranos!”
 
 Ésta misma máscara que muchos protestantes usan, se terminó convirtiendo en una imagen de lucha contra lo que ellos consideran un estado opresor.
