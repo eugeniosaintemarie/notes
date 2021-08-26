@@ -8,7 +8,7 @@ header-img: "img/posts/2019-12-29-mrrobotkernelpanic.jpg"
 catalog:    false
 multilingual: true
 tags:
-  - Peliculas/Series
+  - Movies/Shows
 ---
 
 <div class="es post-container">

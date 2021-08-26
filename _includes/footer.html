@@ -7,7 +7,7 @@
                 {% include sns-links.html center=true %}
 
                 <p class="copyright text-muted">
-                    <a href="blog/aboutme" style="text-decoration: none; color: #777;">{{ site.title }}</a> &copy; <span id="year"></span>
+                    <a href="aboutme" style="text-decoration: none; color: #777;">{{ site.title }}</a> &copy; <span id="year"></span>
                 </p>
             </div>
         </div>
@@ -52,7 +52,7 @@
     <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
 -->
 
-{% if page.title == 'Archivo' %}
+{% if page.title == 'Archive' %}
 <!-- jquery.tagcloud.js -->
 <script>
     async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}',function(){
