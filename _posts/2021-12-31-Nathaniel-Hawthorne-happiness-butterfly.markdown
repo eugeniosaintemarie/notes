@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Happiness is like a butterfly"
+title:      ""
 subtitle:   "Nathaniel Hawthorne"
 date:       2021-12-31 
 author:     ""
