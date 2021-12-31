@@ -153,7 +153,7 @@
 <script type="text/javascript">
     // get nodes
     var $en = document.querySelector(".en");
-    var $es = document.querySelector(".es");    //zh before es
+    var $zh = document.querySelector(".es");
     var $select = document.querySelector("select");
 
     function getLang() { return new URLSearchParams(document.location.search).get("lang") }
@@ -168,7 +168,7 @@
     function _render(){
         var lang = getLang()
         // en
-        if(lang == "es"){
+        if(lang == "en"){
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $en.classList.add("active");
@@ -189,9 +189,9 @@
     // handle select change
     function onLanChange(index){
         if(index == 0){
-            lang = "es"
-        }else{
             lang = "en"
+        }else{
+            lang = "es"
         }
         setLang(lang)
     }
