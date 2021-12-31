@@ -3,20 +3,20 @@ layout:     post
 title:      "Guy Fawkes, V for Vendetta, Anonymous"
 date:       2015-9-10 
 author:     ""
-header-img: "img/posts/2015-9-10-guyfawkesvforvendettaanonymous.jpg"
+header-img: "img/posts/2015-9-10-guy-fawkes-v-for-vendetta-anonymous.jpg"
 catalog:    true
 lang: 
 tags:
   - Articles
 ---
 
-![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-9-10-guyfawkesvforvendettaanonymous0.jpg)
+![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-forvendetta-anonymous-0.jpg)
 > “V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue
 Popularizada por la novela gráfica escrita por Alan Moore e ilustrada principalmente por David Lloyd, más tarde masificada por la película dirigida por James McTeigue, “V for Vendetta” tiene origen en el año 1604, por un hombre llamado Guy Fawkes.
 
 
 ### Guy Fawkes
-![1570 – 1606]({{site.baseurl}}/img/posts/in-post/2015-9-10-guyfawkesvforvendettaanonymous1.jpg)
+![1570 – 1606]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-1.jpg)
 > 1570 – 1606
 Guy Fawkes fue uno de los muchos recusantes que hubo en Inglaterra entre los siglos XVI y XVII. Defendió por encima de todo la religión católica, pese a ser algo perseguido tras el establecimiento de la Iglesia Anglicana tras la reforma protestante.
 
@@ -30,7 +30,7 @@ Esta ejecución pasó a la historia de Inglaterra como un día para celebrar la 
 
 
 ### “V de Vendetta”
-![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in-post/2015-9-10-guyfawkesvforvendettaanonymous2.jpg)
+![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-2.jpg)
 > “V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo
 
 Tal vez, de no ser porque este personaje fue recuperado en “V de Vendetta”, de Alan Moore, se lo hubiese recordado solo de la anterior manera.
@@ -39,7 +39,7 @@ En cuanto a la película, trata de representar la misma historia que la novela g
 
 
 ### Anonymous
-![Anonymous]({{site.baseurl}}/img/posts/in-post/2015-9-10-guyfawkesvforvendettaanonymous3.jpg)
+![Anonymous]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-3.jpg)
 > Lema: “Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us!” / Traducción: “El conocimiento es libre. Somos Anónimos. Somos Legión. No perdonamos. No olvidamos. ¡Espéranos!”
 
 Ésta misma máscara que muchos protestantes usan, se terminó convirtiendo en una imagen de lucha contra lo que ellos consideran un estado opresor.
