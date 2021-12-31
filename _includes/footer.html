@@ -152,8 +152,8 @@
 <!-- Handle Language Change -->
 <script type="text/javascript">
     // get nodes
-    var $zh = document.querySelector(".es");
     var $en = document.querySelector(".en");
+    var $zh = document.querySelector(".es");    
     var $select = document.querySelector("select");
 
     function getLang() { return new URLSearchParams(document.location.search).get("lang") }
@@ -189,9 +189,9 @@
     // handle select change
     function onLanChange(index){
         if(index == 0){
-            lang = "es"
-        }else{
             lang = "en"
+        }else{
+            lang = "es"
         }
         setLang(lang)
     }

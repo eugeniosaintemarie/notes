@@ -11,12 +11,12 @@ tags:
   - Movies/Shows
 ---
 
-<div class="es post-container">
-    {% capture about_es %}{% include posts/2019-12-29-mr-robot-hello-friend/es.md %}{% endcapture %}
-    {{ about_es | markdownify }}
-</div>
-
 <div class="en post-container">
     {% capture about_en %}{% include posts/2019-12-29-mr-robot-hello-friend/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
+</div>
+
+<div class="es post-container">
+    {% capture about_es %}{% include posts/2019-12-29-mr-robot-hello-friend/es.md %}{% endcapture %}
+    {{ about_es | markdownify }}
 </div>
