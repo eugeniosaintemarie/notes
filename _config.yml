@@ -11,9 +11,9 @@ future: true
 
 RSS: false
 twitter_username:
-istagram_username: https://www.instagram.com/eugeniosaintemarie
-linkedin_username: https://www.linkedin.com/in/eugeniosaintemarie
-github_username: https://github.com/eugeniosaintemarie
+istagram_username: 
+linkedin_username: 
+github_username: 
 
 highlighter: rouge
 permalink: pretty
