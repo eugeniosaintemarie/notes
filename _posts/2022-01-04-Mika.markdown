@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "Mika"
+subtitle:   ""
+date:       2021-12-31 
+author:     ""
+header-img: "img/posts/2022-01-04-Mika.jpg"
+catalog:    false
+multilingual: true
+tags:
+  - Quotes
+---
+
+<div class="en post-container">
+    {% capture about_en %}{% include posts/2022-01-04-Mika/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
+
+<div class="es post-container">
+    {% capture about_es %}{% include posts/2022-01-04-Mika/es.md %}{% endcapture %}
+    {{ about_es | markdownify }}
+</div>
