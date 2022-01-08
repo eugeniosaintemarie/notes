@@ -1,9 +1,9 @@
-title: ≡
-SEOTitle: ≡
+title: E
+SEOTitle: E
 header-img: img/sys/home-bg.jpg
 email: e.saintemarie@outlook.com
 description: ""
-keyword: "Eugenio, Sainte Marie, blog"
+keyword: "Eugenio Sainte Marie, Eugenio, Sainte Marie, blog"
 url: "https://eugeniosaintemarie.github.io"
 baseurl: "/blog"
 
@@ -11,9 +11,9 @@ future: true
 
 RSS: false
 twitter_username:
-istagram_username: 
-linkedin_username:
-github_username:
+istagram_username: https://www.instagram.com/eugeniosaintemarie
+linkedin_username: https://www.linkedin.com/in/eugeniosaintemarie
+github_username: https://github.com/eugeniosaintemarie
 
 highlighter: rouge
 permalink: pretty
