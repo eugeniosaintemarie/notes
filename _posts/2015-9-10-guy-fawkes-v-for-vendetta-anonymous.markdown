@@ -10,7 +10,7 @@ tags:
   - Articles
 ---
 
-![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-forvendetta-anonymous-0.jpg)
+![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-0.jpg)
 > “V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue
 Popularizada por la novela gráfica escrita por Alan Moore e ilustrada principalmente por David Lloyd, más tarde masificada por la película dirigida por James McTeigue, “V for Vendetta” tiene origen en el año 1604, por un hombre llamado Guy Fawkes.
 
