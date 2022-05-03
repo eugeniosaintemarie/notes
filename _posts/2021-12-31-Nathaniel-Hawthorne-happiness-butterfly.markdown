@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "🦋"
+title:      "Happiness"
 subtitle:   "Nathaniel Hawthorne"
 date:       2021-12-31 
 author:     ""
