@@ -9,12 +9,12 @@ const PRECACHE_LIST = [
   "./offline.html",
   "./js/jquery.min.js",
   "./js/bootstrap.min.js",
-  "./js/blog.min.js",
+  "./js/notes.min.js",
   "./js/snackbar.js",
   "./img/avatar.jpg",
   "./img/home-bg.jpg",
   "./img/404-bg.jpg",
-  "./css/blog.min.css",
+  "./css/notes.min.css",
   "./css/bootstrap.min.css"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
@@ -22,7 +22,7 @@ const PRECACHE_LIST = [
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  "eugeniosaintemarie.github.io/blog",
+  "eugeniosaintemarie.github.io/notes",
   "cdnjs.cloudflare.com"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
@@ -172,7 +172,7 @@ self.addEventListener('fetch', event => {
     }
 
     // Stale-while-revalidate for possiblily dynamic content
-    // similar to HTTP's stale-while-revalidate: https://www.mnot.net/blog/2007/12/12/stale
+    // similar to HTTP's stale-while-revalidate: https://www.mnot.net/notes/2007/12/12/stale
     // Upgrade from Jake's to Surma's: https://gist.github.com/surma/eb441223daaedf880801ad80006389f1
     const cached = caches.match(event.request);
     const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });

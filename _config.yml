@@ -3,9 +3,9 @@ SEOTitle: E
 header-img: img/sys/home-bg.jpg
 email: e.saintemarie@outlook.com
 description: ""
-keyword: "Eugenio Sainte Marie, Eugenio, Sainte Marie, blog"
+keyword: "Eugenio Sainte Marie, Eugenio, Sainte Marie, notes"
 url: "https://eugeniosaintemarie.github.io"
-baseurl: "/blog"
+baseurl: "/notes"
 
 future: true
 
