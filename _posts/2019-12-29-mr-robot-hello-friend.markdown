@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "hello_friend.mov"
-subtitle:   "eps_1.0"
+subtitle:   ""
 date:       2019-12-29 
 author:     ""
 header-img: "img/posts/2019-12-29-mr-robot-hello-friend.jpg"

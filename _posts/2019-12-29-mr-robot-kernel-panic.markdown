@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "k3rnel-pan1c.ksd"
-subtitle:   "eps_2.1"
+subtitle:   ""
 date:       2019-12-29 
 author:     ""
 header-img: "img/posts/2019-12-29-mr-robot-kernel-panic.jpg"

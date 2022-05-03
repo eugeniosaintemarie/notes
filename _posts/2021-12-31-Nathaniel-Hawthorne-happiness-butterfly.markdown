@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "Happiness"
-subtitle:   "Nathaniel Hawthorne"
+subtitle:   ""
 date:       2021-12-31 
-author:     ""
+author:     "Nathaniel Hawthorne"
 header-img: "img/posts/2021-12-31-Nathaniel-Hawthorne-happiness-butterfly.jpg"
 catalog:    false
 multilingual: true
