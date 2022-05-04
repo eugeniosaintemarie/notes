@@ -154,6 +154,7 @@
     // get nodes
     var $en = document.querySelector(".en");
     var $es = document.querySelector(".es");
+    var $ko = document.querySelector(".ko");
     var $select = document.querySelector("select");
 
     function getLang() { return new URLSearchParams(document.location.search).get("lang") }
@@ -174,6 +175,13 @@
             $es.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
+        // ko
+        if(lang == "ko"){
+            $select.selectedIndex = 1;
+            $ko.style.display = "block";
+            $ko.classList.add("active");
+            $en.style.display = "none";
+            $en.classList.remove("active");            
         // default to en
         }else{
             $select.selectedIndex = 0;
