@@ -205,12 +205,14 @@
     function onLanChange(index){
         if(index == 0){
             lang = "en"
-        }else if(index == 1){
-            lang = "es"
         }else{
+            if(index == 1){
+                lang = "es"
+            }else{
             lang = "ko"
         }
         setLang(lang)
+        }
     }
 
     // init
