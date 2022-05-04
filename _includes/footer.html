@@ -187,6 +187,8 @@
             //$ko.style.display = "none";
             //$ko.classList.remove("active");
         }
+        // interop with catalog 
+        if ("{{ page.catalog }}") generateCatalog(".catalog-body");
     }
     
     // handle select change
@@ -198,9 +200,6 @@
         }
         setLang(lang)
     }
-
-    // interop with catalog 
-    if ("{{ page.catalog }}") generateCatalog(".catalog-body");
 
     // init
     _render();
