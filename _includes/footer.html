@@ -154,7 +154,7 @@
     // get nodes
     var $en = document.querySelector(".en");
     var $es = document.querySelector(".es");
-    var $ko = document.querySelector(".ko");
+    //var $ko = document.querySelector(".ko");
     var $select = document.querySelector("select");
 
     function getLang() { return new URLSearchParams(document.location.search).get("lang") }
@@ -175,28 +175,28 @@
             $es.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
-            $ko.style.display = "none";
-            $ko.classList.remove("active");            
+            $ko.style.display = "block";
+            $ko.classList.add("active");         
         }else{
-            if(lang == "ko"){
+            //if(lang == "ko"){
                 // ko
-                $select.selectedIndex = 2;
-                $ko.style.display = "block";
-                $ko.classList.add("active");
-                $en.style.display = "none";
-                $en.classList.remove("active");
-                $es.style.display = "none";
-                $es.classList.remove("active");
-            }else{
+                //$select.selectedIndex = 2;
+                //$ko.style.display = "block";
+                //$ko.classList.add("active");
+                //$en.style.display = "none";
+                //$en.classList.remove("active");
+                //$es.style.display = "none";
+                //$es.classList.remove("active");
+            //}else{
                 // en
                 $select.selectedIndex = 0;
                 $en.style.display = "block";
                 $en.classList.add("active");
                 $es.style.display = "none";
                 $es.classList.remove("active");
-                $ko.style.display = "none";
-                $ko.classList.remove("active");
-            }
+                $ko.style.display = "block";
+                $ko.classList.add("active");
+            //}
         }
         // interop with catalog 
         if ("{{ page.catalog }}") generateCatalog(".catalog-body");
@@ -209,8 +209,8 @@
         }else{
             if(index == 1){
                 lang = "es"
-            }else{
-                lang = "ko"
+            //}else{
+            //    lang = "ko"
             }
         }
         setLang(lang)
