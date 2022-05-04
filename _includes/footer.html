@@ -154,7 +154,7 @@
     // get nodes
     var $en = document.querySelector(".en");
     var $es = document.querySelector(".es");
-    var $ko = document.querySelector(".ko");
+    //var $ko = document.querySelector(".ko");
     var $select = document.querySelector("select");
 
     function getLang() { return new URLSearchParams(document.location.search).get("lang") }
@@ -175,29 +175,18 @@
             $en.classList.add("active");
             $es.style.display = "none";
             $es.classList.remove("active");
-            $ko.style.display = "none";
-            $ko.classList.remove("active");            
+            //$ko.style.display = "none";
+            //$ko.classList.remove("active");            
         }else{
-            if(lang == "es"){
             // es
             $select.selectedIndex = 1;
             $es.style.display = "block";
             $es.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
-            $ko.style.display = "none";
-            $ko.classList.remove("active");
-            }else{
-                // ko
-                $select.selectedIndex = 2;
-                $ko.style.display = "block";
-                $ko.classList.add("active");
-                $en.style.display = "none";
-                $en.classList.remove("active");
-                $es.style.display = "none";
-                $es.classList.remove("active");  
-            }
-        } 
+            //$ko.style.display = "none";
+            //$ko.classList.remove("active");
+        }
     }
     
     // handle select change
@@ -205,11 +194,7 @@
         if(index == 0){
             lang = "en"
         }else{
-            if(index == 1){
-                lang = "es"
-            }else{
-                lang = "ko"
-            }
+            lang = "es"
         }
         setLang(lang)
     }
