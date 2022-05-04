@@ -170,20 +170,20 @@
         var lang = getLang()
         if(lang == "en"){
             // en
-            $select.selectedIndex = 0;
-            $en.style.display = "block";
-            $en.classList.add("active");
-            $es.style.display = "none";
-            $es.classList.remove("active");
-            //$ko.style.display = "none";
-            //$ko.classList.remove("active");            
-        }else{
-            // es
             $select.selectedIndex = 1;
             $es.style.display = "block";
             $es.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
+            //$ko.style.display = "none";
+            //$ko.classList.remove("active");            
+        }else{
+            // es
+            $select.selectedIndex = 0;
+            $en.style.display = "block";
+            $en.classList.add("active");
+            $es.style.display = "none";
+            $es.classList.remove("active");
             //$ko.style.display = "none";
             //$ko.classList.remove("active");
         }
