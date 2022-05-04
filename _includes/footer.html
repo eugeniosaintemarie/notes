@@ -168,40 +168,38 @@
     // handle render
     function _render(){
         var lang = getLang()
-        // es
-        if(lang == "es"){
+        if(lang == "en"){
+            // en
+            $select.selectedIndex = 0;
+            $en.style.display = "block";
+            $en.classList.add("active");
+            $es.style.display = "none";
+            $es.classList.remove("active");
+            $ko.style.display = "none";
+            $ko.classList.remove("active");            
+        }else{
+            if(lang == "es"){
+            // es
             $select.selectedIndex = 1;
             $es.style.display = "block";
             $es.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
             $ko.style.display = "none";
-            $ko.classList.remove("active");            
-        }else{
-            if(lang == "ko"){
-            // ko
-            $select.selectedIndex = 2;
-            $ko.style.display = "block";
-            $ko.classList.add("active");
-            $en.style.display = "none";
-            $en.classList.remove("active");
-            $es.style.display = "none";
-            $es.classList.remove("active");
+            $ko.classList.remove("active");
             }else{
-                // default to en
-                $select.selectedIndex = 0;
-                $en.style.display = "block";
-                $en.classList.add("active");
+                // ko
+                $select.selectedIndex = 2;
+                $ko.style.display = "block";
+                $ko.classList.add("active");
+                $en.style.display = "none";
+                $en.classList.remove("active");
                 $es.style.display = "none";
-                $es.classList.remove("active");
-                $ko.style.display = "none";
-                $ko.classList.remove("active");  
+                $es.classList.remove("active");  
             }
         } 
     }
-        // interop with catalog 
-        if ("{{ page.catalog }}") generateCatalog(".catalog-body");
-
+    
     // handle select change
     function onLanChange(index){
         if(index == 0){
@@ -215,6 +213,9 @@
         }
         setLang(lang)
     }
+
+    // interop with catalog 
+    if ("{{ page.catalog }}") generateCatalog(".catalog-body");
 
     // init
     _render();
