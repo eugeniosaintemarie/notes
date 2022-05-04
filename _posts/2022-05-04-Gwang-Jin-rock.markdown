@@ -16,12 +16,12 @@ tags:
     {{ about_en | markdownify }}
 </div>
 
-<div class="ko post-container">
-    {% capture about_ko %}{% include posts/2022-05-04-Gwang-Jin-rock/ko.md %}{% endcapture %}
-    {{ about_ko | markdownify }}
-</div>
-
 <div class="es post-container">
     {% capture about_es %}{% include posts/2022-05-04-Gwang-Jin-rock/es.md %}{% endcapture %}
     {{ about_es | markdownify }}
+</div>
+
+<div class="ko post-container">
+    {% capture about_ko %}{% include posts/2022-05-04-Gwang-Jin-rock/ko.md %}{% endcapture %}
+    {{ about_ko | markdownify }}
 </div>
