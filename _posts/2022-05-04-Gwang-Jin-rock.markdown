@@ -4,7 +4,7 @@ title:      "Rock"
 subtitle:   "Gwang Jin"
 date:       2022-05-04 
 author:     ""
-header-img: "img/posts/2022-05-04-Gwang-Jin-rock.jpg"
+header-img: ""
 catalog:    false
 multilingual: true
 tags:
