@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "Dreams"
+subtitle:   ""
+date:       2022-05-04 
+author:     ""
+header-img: ""
+header-style: text
+catalog:    false
+multilingual: false
+tags:
+  - Poems
+---
+
+I don't think not living your dream means you have failed at life.
+And I don't think living your dream means you have succeeded either
