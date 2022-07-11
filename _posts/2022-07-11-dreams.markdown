@@ -9,7 +9,7 @@ header-style: text
 catalog:    false
 multilingual: false
 tags:
-  - Poems
+  - Quotes
 ---
 
 I don't think not living your dream means you have failed at life.
