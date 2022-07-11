@@ -5,6 +5,7 @@ subtitle:   "Gwang Jin"
 date:       2022-05-04 
 author:     ""
 header-img: ""
+header-style: text
 catalog:    false
 multilingual: true
 tags:
