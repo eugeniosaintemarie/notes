@@ -12,5 +12,4 @@ tags:
   - Quotes
 ---
 
-I don't think not living your dream means you have failed at life.
-And I don't think living your dream means you have succeeded either
+I don't think not living your dream means you have failed at life, and I don't think living your dream means you have succeeded either
