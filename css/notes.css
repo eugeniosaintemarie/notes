@@ -1603,14 +1603,14 @@ img::-moz-selection {
   margin-top: 20px;
 }
 .comment #ds-thread #ds-reset a.ds-like-thread-button {
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   border-radius: 0px;
   background: white;
   box-shadow: none;
   text-shadow: none;
 }
 .comment #ds-thread #ds-reset li.ds-tab a.ds-current {
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   border-radius: 0px;
   background: white;
   box-shadow: none;
