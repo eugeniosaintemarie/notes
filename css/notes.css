@@ -639,8 +639,8 @@ img.shadow {
 select {
   -webkit-appearance: none;
   margin-top: 15px;
-  color: #E91E63;
-  border-color: #E91E63;
+  color: #FFC107;
+  border-color: #FFC107;
   padding: 0em 0.4em;
   background: white;
 }
@@ -688,7 +688,7 @@ samp {
   margin-bottom: 15px;
 }
 .post-container a {
-  color: #E91E63;
+  color: #FFC107;
 }
 .post-container a:hover,
 .post-container a:focus {
@@ -1255,7 +1255,7 @@ footer .copyright {
   margin-bottom: 0;
 }
 footer .copyright a {
-  color: #E91E63;
+  color: #FFC107;
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
