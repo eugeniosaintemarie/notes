@@ -26,6 +26,16 @@
             {% for page in site.pages %} {% if page.title and page.hide-in-nav
             != true %}
             <li>
+              <a href="https://eugeniosaintemarie.github.io/quotes"
+                >Quotes</a
+              >
+            </li>
+            <li>
+              <a href="https://eugeniosaintemarie.github.io/words"
+                >Words</a
+              >
+            </li>                      
+            <li>
               <a href="{{ page.url | prepend: site.baseurl }}"
                 >{{ page.title }}</a
               >
