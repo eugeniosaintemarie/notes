@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      "Life"
+subtitle:   ""
+date:       2023-01-30 
+author:     ""
+header-img: ""
+header-style: text
+catalog:    false
+multilingual: false
+tags:
+  - Quotes
+---
+
+Before sex you help each other get naked, after sex you only dress yourself. Moral of the story: in life no one helps you once you're fucked
+
