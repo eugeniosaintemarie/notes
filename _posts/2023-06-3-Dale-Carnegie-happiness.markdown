@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "Happiness"
-subtitle:   ""
+subtitle:   "Dale Carnegie"
 date:       2023-06-03 
-author:     "Dale Carnegie"
+author:     ""
 header-img: ""
 header-style: text
 catalog:    false
