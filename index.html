@@ -23,10 +23,10 @@ description: ""
       {{ post.subtitle }}
     </h3>
     {% endif %}
-    <div class="post-content-preview">
-      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:125 }}
+    <!--<div class="post-content-preview">
+      {% if post.lang == 'en' %} {{ post.content | strip_html | truncate:100 }}
       {% else %} {{ post.content | strip_html | truncate:125 }} {% endif %}
-    </div>
+    </div>-->
   </a>
   <p class="post-meta">
     <!--{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}, {{ post.date | date: "%B %-d, %Y" }}-->

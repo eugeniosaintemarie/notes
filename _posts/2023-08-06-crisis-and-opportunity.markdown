@@ -1,13 +1,13 @@
 ---
 layout:     post
 title:      "危机与机会"
-subtitle:   "(wēijī yǔ jīhuì)"
+subtitle:   ""
 date:       2023-08-06
 author:     ""
 header-img: ""
 header-style: text
 catalog:    false
-multilingual: false
+multilingual: true
 tags:
   - Culture
 ---

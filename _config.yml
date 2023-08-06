@@ -17,7 +17,7 @@ github_username:
 
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 25
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json"]
 anchorjs: true
 

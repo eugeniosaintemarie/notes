@@ -29,7 +29,7 @@ Gracias a la tortura hacia él, consiguieron que confesara los nombres del resto
 Esta ejecución pasó a la historia de Inglaterra como un día para celebrar la noche en la que los traidores fueron ajusticiados, en la que recreaban a Guy Fawkes con una máscara.
 
 
-### “V de Vendetta”
+### “V for Vendetta”
 ![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-2.jpg)
 > “V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo
 
