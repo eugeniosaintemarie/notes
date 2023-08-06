@@ -12,13 +12,15 @@ published: true
 ---
 
 ![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-0.jpg)
-> “V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue
+>A la izquierda: “V for Vendetta”, cómic de Alan Moore y David Lloyd\
+>A la derecha:  “V for Vendetta”, película de James McTeigue
+<br>
 Popularizada por la novela gráfica escrita por Alan Moore e ilustrada principalmente por David Lloyd, más tarde masificada por la película dirigida por James McTeigue, “V for Vendetta” tiene origen en el año 1604, por un hombre llamado Guy Fawkes.
-
 
 ### Guy Fawkes
 ![1570 – 1606]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-1.jpg)
 > 1570 – 1606
+<br>
 Guy Fawkes fue uno de los muchos recusantes que hubo en Inglaterra entre los siglos XVI y XVII. Defendió por encima de todo la religión católica, pese a ser algo perseguido tras el establecimiento de la Iglesia Anglicana tras la reforma protestante.
 
 A diferencia de otros recusantes, Guy Fawkes junto a otros provinciales católicos, llevaron la lucha por el catolicismo hasta el máximo extremo. Su lucha logró que se convirtiera en el brazo ejecutivo de la “Conspiración de la Pólvora”, un complot complejo que se organizó a lo largo de dos años con el objetivo de eliminar al rey Jacobo I junto a la mayor parte de la aristocracia protestante que había llevado la religión de Catesby y Fawkes a ser una religión minoritaria y perseguida.
@@ -32,8 +34,8 @@ Esta ejecución pasó a la historia de Inglaterra como un día para celebrar la 
 
 ### “V for Vendetta”
 ![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-2.jpg)
-> “V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo
-
+> “V for Vendetta”, cómic de Alan Moore y David Lloyd, publicado por Vertigo-DC Comics
+<br>
 Tal vez, de no ser porque este personaje fue recuperado en “V de Vendetta”, de Alan Moore, se lo hubiese recordado solo de la anterior manera.
 El cómic está ambientado en una Inglaterra que tras una guerra nuclear, es sometida a un gobierno totalmente fascista. Contra ese gobierno, surge la imagen de un vengador anarquista, quien recupera la imagen antitotalitaria de Guy Fawkes y su máscara, olvidándose de cualquier vestigio religioso.
 En cuanto a la película, trata de representar la misma historia que la novela gráfica, aunque el escritor de ésta, Alan Moore, no estuvo de acuerdo con algunos aspectos del guion por lo que exigió que su nombre se retirara de los créditos de la película. Por otro lado, el ilustrador David Lloyd sí apoyó la adaptación, apareciendo acreditado.
@@ -41,7 +43,8 @@ En cuanto a la película, trata de representar la misma historia que la novela g
 
 ### Anonymous
 ![Anonymous]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-3.jpg)
-> Lema: “Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us!” / Traducción: “El conocimiento es libre. Somos Anónimos. Somos Legión. No perdonamos. No olvidamos. ¡Espéranos!”
+> Lema: “Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us!”
+>Traducción: “El conocimiento es libre. Somos Anónimos. Somos Legión. No perdonamos. No olvidamos. ¡Espéranos!”
 
 Ésta misma máscara que muchos protestantes usan, se terminó convirtiendo en una imagen de lucha contra lo que ellos consideran un estado opresor.
 Actualmente, hay un grupo activista el cual se convirtió en un fenómeno de Internet, una comunidad virtual, con asociación voluntaria, que tiene como objetivo el hacktivismo como medida y acción de protesta.
