@@ -9,7 +9,7 @@ header-style: text
 catalog:    false
 multilingual: true
 tags:
-  - Culture
+  - Philosophy
 ---
 
 <div class="en post-container">
