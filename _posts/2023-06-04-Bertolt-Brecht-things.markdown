@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "Things"
-subtitle:   "Bertolt Brecht"
+subtitle:   ""
 date:       2023-06-04
-author:     ""
+author:     "Bertolt Brecht"
 header-img: ""
 header-style: text
 catalog:    false

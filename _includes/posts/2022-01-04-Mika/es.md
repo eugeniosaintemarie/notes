@@ -1,3 +1,3 @@
 Ellos viven menos por que nacen sabiendo amar de una manera que nosotros llevamos una vida entera intentando aprender
 ![Mika]({{site.baseurl}}/img/posts/in-post/2022-01-04-Mika.jpg)
-# [Mika](https://eugeniosaintemarie.github.io/camera/Mika.html "Mika")
+<a href="https://eugeniosaintemarie.github.io/camera/Mika.html" target="_blank">📷</a>

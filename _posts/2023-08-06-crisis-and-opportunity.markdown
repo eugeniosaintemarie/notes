@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "危机与机会"
-subtitle:   ""
+subtitle:   "Crisis and opportunity"
 date:       2023-08-06
 author:     ""
 header-img: ""

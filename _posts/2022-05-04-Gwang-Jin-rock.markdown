@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "Rock"
-subtitle:   "Gwang Jin"
+subtitle:   ""
 date:       2022-05-04 
-author:     ""
+author:     "Gwang Jin"
 header-img: ""
 header-style: text
 catalog:    false
