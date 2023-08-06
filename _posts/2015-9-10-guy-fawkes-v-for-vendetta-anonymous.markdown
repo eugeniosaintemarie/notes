@@ -5,6 +5,7 @@ date: 2015-9-10
 header-img: img/posts/2015-9-10-guy-fawkes-v-for-vendetta-anonymous.jpg
 catalog: true
 lang: null
+author: ""
 tags:
   - Stories
 published: true
