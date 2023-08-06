@@ -19,7 +19,7 @@
   <meta property="og:type" content="article" />
   <meta
     property="og:description"
-    content="{{ page.excerpt | strip_html | truncate:200 }}"
+    content="{{ page.excerpt | strip_html | truncate:100 }}"
   />
   {% if page.date %} <meta property="article:published_time" content="{{
   page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}"> {% endif %} {% if page.author %}
@@ -38,7 +38,7 @@
   <meta property="og:site_name" content="{{ site.SEOTitle }}" />
 
   <title>
-    {% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{
+    {% if page.title %} {{ site.SEOTitle }} • {{ page.title }}{% else %}{{
     site.SEOTitle }}{% endif %}
   </title>
 
