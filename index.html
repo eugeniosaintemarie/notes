@@ -12,8 +12,8 @@ description: ""
   }
 </style>
 
-{% for post in paginator.posts %}
-<!--<div class="post-preview">
+<!--{% for post in paginator.posts %}
+<div class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl }}">
     <h2 class="post-title">
       {{ post.title }}
@@ -31,9 +31,9 @@ description: ""
   <p class="post-meta">
     {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}, {{ post.date | date: "%B %-d, %Y" }}
   </p>
-</div>-->
+</div>
 <hr />
-{% endfor %}
+{% endfor %}-->
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
