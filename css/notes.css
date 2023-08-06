@@ -639,8 +639,8 @@ img.shadow {
 select {
   -webkit-appearance: none;
   margin-top: 15px;
-  color: #FFC107;
-  border-color: #FFC107;
+  color: #404040;
+  border-color: #404040;
   padding: 0em 0.4em;
   background: white;
 }
