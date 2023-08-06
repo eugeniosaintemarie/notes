@@ -13,7 +13,7 @@
   <!-- Open Graph -->
   <meta
     property="og:title"
-    content="{{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %} • {% if page.title %}{{ page.title }}"
+    content="{% if page.title %}{{ site.SEOTitle }} • {{ page.title }}{% else %}{{ site.SEOTitle }}{% endif %}"
   />
   {% case page.layout %} {% when 'post' %}
   <meta property="og:type" content="article" />
