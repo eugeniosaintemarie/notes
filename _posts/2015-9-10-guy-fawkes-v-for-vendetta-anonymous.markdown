@@ -20,8 +20,9 @@ La popularidad de "V for Vendetta", originada en la novela gráfica escrita por 
 
 ### Guy Fawkes
 ![1570 – 1606]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-1.jpg)
-> 1570 – 1606
-<br>
+> 1570 – 1606\
+
+
 Guy Fawkes fue uno entre muchos recusantes de Inglaterra en los siglos XVI y XVII. Fiel defensor de la religión católica, enfrentó persecución tras el establecimiento de la Iglesia Anglicana durante la reforma protestante.
 
 A diferencia de otros recusantes, Guy Fawkes, junto con otros católicos provinciales, llevó la lucha por el catolicismo al extremo. Su compromiso lo convirtió en el motor de la "Conspiración de la Pólvora", un intrincado complot desarrollado durante dos años con el propósito de eliminar al rey Jacobo I y a gran parte de la aristocracia protestante. Esta élite había relegado la religión de Catesby y Fawkes a una posición minoritaria y perseguida.
@@ -35,8 +36,9 @@ Este sombrío episodio pasó a la historia como un día de celebración en Ingla
 
 ### “V for Vendetta”
 ![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-2.jpg)
-> “V for Vendetta”, cómic de Alan Moore y David Lloyd, publicado por Vertigo-DC Comics
-<br>
+> “V for Vendetta”, cómic de Alan Moore y David Lloyd, publicado por Vertigo-DC Comics\
+
+
 Si no fuera por la adaptación de Alan Moore en "V de Vendetta", Guy Fawkes podría haber quedado relegado a la historia original. La novela gráfica está ambientada en una Inglaterra devastada por una guerra nuclear, ahora bajo un gobierno fascista. Contra este régimen surge la imagen de un vengador anarquista, retomando la representación antitotalitaria de Guy Fawkes y su máscara, dejando de lado las connotaciones religiosas.
 
 La película busca plasmar la trama de la novela gráfica, aunque el mismo Alan Moore no estuvo de acuerdo con ciertos aspectos del guion, exigiendo que su nombre fuera retirado de los créditos. En contraste, el ilustrador David Lloyd respaldó la adaptación y figura en los créditos.
@@ -44,7 +46,8 @@ La película busca plasmar la trama de la novela gráfica, aunque el mismo Alan 
 
 ### Anonymous
 ![Anonymous]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-3.jpg)
-> Lema: “Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us!”
->Traducción: “El conocimiento es libre. Somos Anónimos. Somos Legión. No perdonamos. No olvidamos. ¡Espéranos!”
+> Lema: “Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us!”\
+>Traducción: “El conocimiento es libre. Somos Anónimos. Somos Legión. No perdonamos. No olvidamos. ¡Espéranos!”\
+
 
 La máscara que muchos manifestantes usan se ha convertido en un símbolo de lucha contra lo que consideran un estado opresor. En la actualidad, un activista grupo ha emergido como un fenómeno de internet: una comunidad virtual con un objetivo voluntario de hacktivismo como forma de protesta.
