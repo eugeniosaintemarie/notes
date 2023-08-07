@@ -1,5 +1,3 @@
-In the Chinese culture, the words <i>crisis</i> 危机 (wēijī) and <i>opportunity</i> 机会 (jīhuì), can also be expressed together as a concept called <b>危机与机会</b> <i>(wēijī yǔ jīhuì)</i> (the interpretation of this concept varies and has been debated among linguists).
+In chinese culture, the words for crisis (危机, wēijī) and opportunity (机会, jīhuì) are also expressed together as a concept called 危机与机会 (wēijī yǔ jīhuì). The interpretation of this concept varies and has been debated among linguists.
 <br><br>
-The character 危 (wēi) in 危机 (wēijī) means danger, and the character 机 (jī) in 机会 (jīhuì) means opportunity. 
-<br><br>
-The combination of the two characters is used to emphasize the idea that crisis can contain elements of opportunity or potential for positive change.
+The character 危 (wēi) in 危机 (wēijī) means danger, while the character 机 (jī) in 机会 (jīhuì) means opportunity. The combination of these two characters is used to emphasize the idea that a crisis can contain elements of opportunity or potential for positive change.
