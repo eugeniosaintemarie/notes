@@ -203,26 +203,19 @@
     }
     
     // handle select change
-    function onLanChange(index) {
-        let lang;
-        
-        switch (index) {
-            case "0":
-                lang = "en";
-                break;
-            case "1":
-                lang = "es";
-                break;
-            case "2":
-                lang = "ko";
-                break;
-            default:
-                lang = "en";
-                break;
+    function setLang(lang) {
+        let mdFile;
+        if (lang === "en") {
+            mdFile = "en.md";
+        } else if (lang === "es") {
+            mdFile = "es.md";
+        } else if (lang === "ko") {
+            mdFile = "ko.md";
+        } else {
+            mdFile = "en.md";
         }
-
-        setLang(lang);
     }
+
 
     // init
     _render();
