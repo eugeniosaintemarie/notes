@@ -203,17 +203,15 @@
     }
     
     // handle select change
-    function setLang(lang) {
-        let mdFile;
-        if (lang === "en") {
-            mdFile = "en.md";
-        } else if (lang === "es") {
-            mdFile = "es.md";
-        } else if (lang === "ko") {
-            mdFile = "ko.md";
-        } else {
-            mdFile = "en.md";
+    function onLanChange(index){
+        if(index == 0){
+            lang = "en"
+        }else{
+            if(index == 1){
+                lang = "es"
+            }
         }
+        setLang(lang)
     }
 
 
