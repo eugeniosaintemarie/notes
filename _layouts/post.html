@@ -10,12 +10,10 @@ layout: default
   <div class="container">
     <div class="row">
       <!-- Post Container -->
-      <div
-        class="
+      <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
-                post-container"
-      >
+                post-container">
         <!-- Multi-Lingual -->
         {% if page.multilingual %} {% include multilingual-sel.html %} {% endif
         %} {{ content }}
@@ -24,24 +22,16 @@ layout: default
         <ul class="pager">
           {% if page.previous.url %}
           <li class="previous">
-            <a
-              href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="{{page.previous.title}}"
-            >
-            &lt;<br />
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+              data-placement="top" title="{{page.previous.title}}">
+              &lt;<br />
               <!--<span>{{page.previous.title}}</span>-->
             </a>
           </li>
           {% endif %} {% if page.next.url %}
           <li class="next">
-            <a
-              href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="{{page.next.title}}"
-            >
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+              data-placement="top" title="{{page.next.title}}">
               ><br />
               <!--<span>{{page.next.title}}</span>-->
             </a>
@@ -61,13 +51,11 @@ layout: default
 
       <!-- Side Catalog Container -->
       {% if page.catalog %}
-      <div
-        class="
+      <div class="
                 col-lg-2 col-lg-offset-0
                 visible-lg-block
                 sidebar-container
-                catalog-container"
-      >
+                catalog-container">
         <div class="side-catalog">
           <hr class="hidden-sm hidden-xs" />
           <h5 style="margin-top: 50px;">
@@ -85,8 +73,8 @@ layout: default
                 col-md-10 col-md-offset-1
                 sidebar-container"
       >-->
-      </div>
     </div>
+  </div>
   </div>
 </article>
 
@@ -101,7 +89,7 @@ site.disqus_username %}
   var disqus_identifier = "{{page.id}}";
   var disqus_url = "{{site.url}}{{page.url}}";
 
-  (function() {
+  (function () {
     var dsq = document.createElement("script");
     dsq.type = "text/javascript";
     dsq.async = true;
@@ -125,7 +113,7 @@ site.disqus_username %}
     if (c) {
       o.addEventListener(
         "load",
-        function(e) {
+        function (e) {
           c(null, e);
         },
         false
@@ -138,7 +126,7 @@ site.disqus_username %}
 <script>
   async(
     "//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",
-    function() {
+    function () {
       anchors.options = {
         visible: "hover",
         placement: "right"

@@ -119,10 +119,10 @@ self.addEventListener('activate', event => {
 
 var fetchHelper = {
 
-  fetchThenCache: function(request){
+  fetchThenCache: function (request) {
     // Requests with mode "no-cors" can result in Opaque Response,
     // Requests to Allow-Control-Cross-Origin: * can't include credentials.
-    const init = { mode: "cors", credentials: "omit" } 
+    const init = { mode: "cors", credentials: "omit" }
 
     const fetched = fetch(request, init)
     const fetchedCopy = fetched.then(resp => resp.clone());
@@ -131,15 +131,15 @@ var fetchHelper = {
     //       so Opaque Resp will not be cached in this case.
     Promise.all([fetchedCopy, caches.open(CACHE)])
       .then(([response, cache]) => response.ok && cache.put(request, response))
-      .catch(_ => {/* eat any errors */})
-    
+      .catch(_ => {/* eat any errors */ })
+
     return fetched;
   },
 
-  cacheFirst: function(url){
-    return caches.match(url) 
+  cacheFirst: function (url) {
+    return caches.match(url)
       .then(resp => resp || this.fetchThenCache(url))
-      .catch(_ => {/* eat any errors */})
+      .catch(_ => {/* eat any errors */ })
   }
 }
 
@@ -166,7 +166,7 @@ self.addEventListener('fetch', event => {
     }
 
     // Cache-only Startgies for ys.static resources
-    if (event.request.url.indexOf('ys.static') > -1){
+    if (event.request.url.indexOf('ys.static') > -1) {
       event.respondWith(fetchHelper.cacheFirst(event.request.url))
       return;
     }
@@ -177,7 +177,7 @@ self.addEventListener('fetch', event => {
     const cached = caches.match(event.request);
     const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
     const fetchedCopy = fetched.then(resp => resp.clone());
-    
+
     // Call respondWith() with whatever we get first.
     // Promise.race() resolves with first one settled (even rejected)
     // If the fetch fails (e.g disconnected), wait for the cache.

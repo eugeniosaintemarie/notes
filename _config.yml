@@ -11,9 +11,9 @@ future: true
 
 RSS: false
 twitter_username:
-istagram_username: 
-linkedin_username: 
-github_username: 
+istagram_username:
+linkedin_username:
+github_username:
 
 highlighter: rouge
 permalink: pretty

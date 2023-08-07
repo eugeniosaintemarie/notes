@@ -4,9 +4,15 @@ description: ""
 ---
 
 <style>
-  .navbar-brand, .tags {display: none !important;}
+  .navbar-brand,
+  .tags {
+    display: none !important;
+  }
+
   @media only screen and (min-width: 768px) {
-    .intro-header .site-heading h1, .intro-header .page-heading h1 {
+
+    .intro-header .site-heading h1,
+    .intro-header .page-heading h1 {
       font-size: 60px !important;
     }
   }
@@ -40,17 +46,11 @@ description: ""
 <ul class="pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a
-      href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-      >&larr;</a
-    >
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;</a>
   </li>
   {% endif %} {% if paginator.next_page %}
   <li class="next">
-    <a
-      href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-      >&rarr;</a
-    >
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&rarr;</a>
   </li>
   {% endif %}
 </ul>

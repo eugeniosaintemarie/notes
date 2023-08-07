@@ -11,18 +11,14 @@ layout: default
     {% if site.sidebar == false %}
     <!-- NO SIDEBAR -->
     <!-- PostList Container -->
-    <div
-      class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container"
-    >
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
       {{ content }}
     </div>
     <!-- Sidebar Container -->
-    <div
-      class="
+    <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
-                sidebar-container"
-    >
+                sidebar-container">
       <!-- Featured Tags -->
       {% include featured-tags.html %}
 
@@ -33,27 +29,23 @@ layout: default
 
     <!-- USE SIDEBAR -->
     <!-- PostList Container -->
-    <div
-      class="
+    <div class="
                 col-lg-8 col-lg-offset-1
                 col-md-8 col-md-offset-1
                 col-sm-12
                 col-xs-12
                 postlist-container
-            "
-    >
+            ">
       {{ content }}
     </div>
     <!-- Sidebar Container -->
-    <div
-      class="
+    <div class="
                 col-lg-3 col-lg-offset-0
                 col-md-3 col-md-offset-0
                 col-sm-12
                 col-xs-12
                 sidebar-container
-            "
-    >
+            ">
       <!-- Featured Tags -->
       {% include featured-tags.html %}
 
@@ -82,8 +74,6 @@ layout: default
     }
   });
 </script>
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-></script>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}

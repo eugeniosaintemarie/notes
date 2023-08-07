@@ -2,7 +2,7 @@
 layout: post
 title: 'Guy Fawkes, V for Vendetta, Anonymous'
 date: 2015-9-10
-header-img: img/posts/2015-9-10-guy-fawkes-v-for-vendetta-anonymous.jpg
+header-img: img/posts/2015-09-10-guy-fawkes-v-for-vendetta-anonymous.jpg
 catalog: true
 lang: null
 author: ""
@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-0.jpg)
+![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-09-10-guy-fawkes-v-for-vendetta-anonymous-0.jpg)
 >A la izquierda: “V for Vendetta”, cómic de Alan Moore y David Lloyd\
 >A la derecha:  “V for Vendetta”, película de James McTeigue
 <br>
@@ -19,7 +19,7 @@ La popularidad de "V for Vendetta", originada en la novela gráfica escrita por 
 
 
 ### Guy Fawkes
-![1570 – 1606]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-1.jpg)
+![1570 – 1606]({{site.baseurl}}/img/posts/in-post/2015-09-10-guy-fawkes-v-for-vendetta-anonymous-1.jpg)
 > 1570 – 1606
 
 
@@ -35,7 +35,7 @@ Este sombrío episodio pasó a la historia como un día de celebración en Ingla
 
 
 ### “V for Vendetta”
-![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-2.jpg)
+![“V for Vendetta” — Alan Moore, David Lloyd — DC Comics, Vertigo]({{site.baseurl}}/img/posts/in-post/2015-09-10-guy-fawkes-v-for-vendetta-anonymous-2.jpg)
 > “V for Vendetta”, cómic de Alan Moore y David Lloyd, publicado por Vertigo-DC Comics
 
 
@@ -45,7 +45,7 @@ La película busca plasmar la trama de la novela gráfica, aunque el mismo Alan 
 
 
 ### Anonymous
-![Anonymous]({{site.baseurl}}/img/posts/in-post/2015-9-10-guy-fawkes-v-for-vendetta-anonymous-3.jpg)
+![Anonymous]({{site.baseurl}}/img/posts/in-post/2015-09-10-guy-fawkes-v-for-vendetta-anonymous-3.jpg)
 > Lema: “Knowledge is free. We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us!”\
 >Traducción: “El conocimiento es libre. Somos Anónimos. Somos Legión. No perdonamos. No olvidamos. ¡Espéranos!”
 
