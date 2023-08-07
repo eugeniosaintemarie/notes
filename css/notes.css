@@ -932,7 +932,7 @@ samp {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: #404040;
+    color: #404040 !important;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
