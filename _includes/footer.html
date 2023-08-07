@@ -203,17 +203,25 @@
     }
     
     // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            lang = "en"
-        }else{
-            if(index == 1){
-                lang = "es"
-            //}else{
-            //    lang = "ko"
-            }
+    function onLanChange(index) {
+        let lang;
+        
+        switch (index) {
+            case "0":
+                lang = "en";
+                break;
+            case "1":
+                lang = "es";
+                break;
+            case "2":
+                lang = "ko";
+                break;
+            default:
+                lang = "en";
+                break;
         }
-        setLang(lang)
+
+        setLang(lang);
     }
 
     // init
