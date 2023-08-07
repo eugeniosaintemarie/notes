@@ -947,7 +947,7 @@ samp {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .navbar-custom.invert .navbar-toggle .icon-bar {
-  background-color: #404040;
+  background-color: white;
 }
 .navbar-custom.invert .navbar-brand {
   color: #404040;
