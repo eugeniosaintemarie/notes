@@ -1694,7 +1694,7 @@ body {background-color: black !important;}
 		background-color: black !important;
 		border-bottom: none !important;
 }
-.navbar-custom.is-fixed .navbar-brand, .navbar-right a {color: #f8f8f8 !important;}
+.navbar-custom.is-fixed .navbar-brand, .navbar-right a {color: #f8f8f8;}
 .post-preview > a > .post-title {color: #f8f8f8 !important;}
 .post-preview > a > .post-title:hover {color: #0085a1 !important;}
 .tags a:hover {background: none !important;}
