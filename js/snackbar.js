@@ -1,21 +1,5 @@
-/**
- * SnackBar.js
- * 
- * This small component is borrowed from 
- * https://codepen.io/wibblymat/pen/avAjq
- */
-
-
 var createSnackbar = (function () {
-  // Any snackbar that is already shown
   var previous = null;
-
-  /*
-  <div class="paper-snackbar">
-    <button class="action">Dismiss</button>
-    This is a longer message that won't fit on one line. It is, inevitably, quite a boring thing. Hopefully it is still useful.
-  </div>
-  */
 
   return function (config) {
     var message = config.message,
@@ -57,12 +41,9 @@ var createSnackbar = (function () {
         }
       }
     }.bind(snackbar));
-
-
-
+    
     previous = snackbar;
     document.body.appendChild(snackbar);
-    // In order for the animations to trigger, I have to force the original style to be computed, and then change it.
     getComputedStyle(snackbar).bottom;
     snackbar.style.bottom = '0px';
     snackbar.style.opacity = 1;
