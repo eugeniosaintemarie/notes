@@ -5859,7 +5859,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
   border-radius: 15px;
 }
 
