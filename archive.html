@@ -19,13 +19,13 @@ header-img: "img/sys/tag-bg.jpg"
 		color: #f3f5f5 !important;
 	}
 
-	.navbar-right {
+	/*.navbar-right {
 		display: none !important;
-	}
+	}*/
 </style>
 
 <!-- Page Header -->
-{% include intro-header.html type="page" short='false' %}
+{% include intro-header.html type='page' short=true %}
 
 <!-- Main Content -->
 <div class="container">
@@ -93,7 +93,10 @@ header-img: "img/sys/tag-bg.jpg"
 						</a>
 						<hr>
 					</div>
-					{% endfor %}
+					{%- if forloop.last -%}
+				</section>
+				{%- endif -%}					
+				{% endfor %}
 			</div>
 		</div>
 	</div>
