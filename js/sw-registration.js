@@ -1,9 +1,5 @@
 function handleRegistration(registration) {
   console.log('Service Worker Registered. ', registration)
-  /**
-   * ServiceWorkerRegistration.onupdatefound
-   * The service worker registration's installing worker changes.
-   */
   registration.onupdatefound = (e) => {
     const installingWorker = registration.installing;
     installingWorker.onstatechange = (e) => {
@@ -22,15 +18,11 @@ function handleRegistration(registration) {
 }
 
 if (navigator.serviceWorker) {
-  // For security reasons, a service worker can only control the pages
-  // that are in the same directory level or below it. That's why we put sw.js at ROOT level.
   navigator.serviceWorker
     .register('/sw.js')
     .then((registration) => handleRegistration(registration))
     .catch((error) => { console.log('ServiceWorker registration failed: ', error) })
 
-  // register message receiver
-  // https://dbwriteups.wordpress.com/2015/11/16/service-workers-part-3-communication-between-sw-and-pages/
   navigator.serviceWorker.onmessage = (e) => {
     console.log('SW: SW Broadcasting:', event);
     const data = e.data

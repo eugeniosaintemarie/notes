@@ -41,7 +41,7 @@ var createSnackbar = (function () {
         }
       }
     }.bind(snackbar));
-    
+
     previous = snackbar;
     document.body.appendChild(snackbar);
     getComputedStyle(snackbar).bottom;

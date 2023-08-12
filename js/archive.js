@@ -1,19 +1,14 @@
 (function () {
   function queryString() {
-    // This function is anonymous, is executed immediately and
-    // the return value is assigned to QueryString!
     var i = 0, queryObj = {}, pair;
     var queryStr = window.location.search.substring(1);
     var queryArr = queryStr.split('&');
     for (i = 0; i < queryArr.length; i++) {
       pair = queryArr[i].split('=');
-      // If first entry with this name
       if (typeof queryObj[pair[0]] === 'undefined') {
         queryObj[pair[0]] = pair[1];
-        // If second entry with this name
       } else if (typeof queryObj[pair[0]] === 'string') {
         queryObj[pair[0]] = [queryObj[pair[0]], pair[1]];
-        // If third or later entry with this name
       } else {
         queryObj[pair[0]].push(pair[1]);
       }
@@ -56,7 +51,7 @@
       sectionTopArticleIndex.push(index);
     }
 
-    function searchButtonsByTag(_tag/*raw tag*/) {
+    function searchButtonsByTag(_tag) {
       if (!_tag) {
         return $tagShowAll;
       }
@@ -75,7 +70,7 @@
       }
     }
 
-    function tagSelect(tag/*raw tag*/, target) {
+    function tagSelect(tag, target) {
       var result = {}, $articles;
       var i, j, k, _tag;
 
@@ -111,7 +106,6 @@
 
       hasInit || ($result.removeClass('d-none'), hasInit = true);
 
-
       if (target) {
         buttonFocus(target);
         _tag = target.attr('data-encode');
@@ -131,7 +125,7 @@
     init();
     tagSelect(_tag);
 
-    $tags.on('click', 'a', function () {   /* only change */
+    $tags.on('click', 'a', function () {
       tagSelect($(this).data('encode'), $(this));
     });
 

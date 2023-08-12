@@ -10,11 +10,11 @@
     highest = tagWeights.pop();
     range = highest - lowest;
     if (range === 0) { range = 1; }
-    // Sizes
+
     if (opts.size) {
       fontIncr = (opts.size.end - opts.size.start) / range;
     }
-    // Colors
+
     if (opts.color) {
       colorIncr = colorIncrement(opts.color, range);
     }
@@ -24,7 +24,7 @@
         $(this).css({ "font-size": opts.size.start + (weighting * fontIncr) + opts.size.unit });
       }
       if (opts.color) {
-        // change color to background-color
+
         $(this).css({ "backgroundColor": tagColor(opts.color, colorIncr, weighting) });
       }
     });
@@ -34,7 +34,6 @@
     size: { start: 14, end: 18, unit: "pt" }
   };
 
-  // Converts hex to an RGB array
   function toRGB(code) {
     if (code.length == 4) {
       code = jQuery.map(/\w+/.exec(code), function (el) { return el + el; }).join("");
@@ -43,7 +42,6 @@
     return [parseInt(hex[1], 16), parseInt(hex[2], 16), parseInt(hex[3], 16)];
   }
 
-  // Converts an RGB array to hex
   function toHex(ary) {
     return "#" + jQuery.map(ary, function (i) {
       hex = i.toString(16);
