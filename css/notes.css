@@ -157,15 +157,12 @@
   }
 }
 
-/*
-  Please note this CSS is currently in   prototype form. We'll implement a cleaned up version in Web Starter Kit.
-*/
 .paper-snackbar {
   transition-property: opacity, bottom, left, right, width, margin,
     border-radius;
   transition-duration: 0.5s;
   transition-timing-function: ease;
-  /*font-family: RobotoDraft;*/
+
   font-size: 14px;
   min-height: 14px;
   background-color: #323232;
@@ -183,16 +180,7 @@
 
 @media (min-width: 640px) {
   .paper-snackbar {
-    /*
-    Desktop:
-      Single-line snackbar height: 48 dp tall
-      Minimum width: 288 dp
-      Maximum width: 568 dp
-      2 dp rounded corner
-      Text: Roboto Regular 14 sp
-      Action button: Roboto Medium 14 sp, all-caps text
-      Default background fill: #323232 100%
-    */
+
     min-width: 288px;
     max-width: 568px;
     display: inline-flex;
@@ -204,14 +192,7 @@
 
 @media (max-width: 640px) {
   .paper-snackbar {
-    /*
-  Mobile:
-    Single-line snackbar height: 48 dp
-    Multi-line snackbar height: 80 dp
-    Text: Roboto Regular 14 sp
-    Action button: Roboto Medium 14 sp, all-caps text
-    Default background fill: #323232 100%  
-  */
+
     left: 0px;
     right: 0px;
   }
@@ -230,9 +211,6 @@
   outline: 0px;
 }
 
-/* Everything from here down is actually just for the demo - the material buttons and card, and various other pieces of styling */
-/* Variables */
-/* Buttons */
 .paper-button {
   position: relative;
   padding: 4px 0;
@@ -257,7 +235,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  /*font-family: 'Roboto';*/
+
   font-size: 1em;
   color: #000000;
   text-transform: uppercase;
@@ -297,7 +275,7 @@
 
 button.paper-button {
   border: 0;
-  /*font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;*/
+
   font-size: 1em;
   line-height: 25px;
   background-color: #ffffff;
@@ -311,7 +289,6 @@ button.paper-button {
   color: #ffffff;
 }
 
-/** Shadows **/
 .paper-shadow-animated.paper-shadow {
   transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -344,7 +321,6 @@ button.paper-button {
   box-shadow: 0 25px 55px 0 rgba(0, 0, 0, 0.21);
 }
 
-/** Card **/
 .card {
   background: white;
   width: 300px;
@@ -677,7 +653,6 @@ pre.highlight {
   border-radius: 0px;
 }
 
-/* Landscape phones and down */
 @media (max-width: 480px) {
   .highlighter-rouge .highlight {
     margin-left: -15px;
@@ -996,11 +971,6 @@ samp {
 
 @media only screen and (max-width: 767px) {
 
-  /**
-   * Layout
-   * Since V1.6 we use absolute positioning to prevent to expand container-fluid
-   * which would cover tags. A absolute positioning make a new layer.
-   */
   .navbar-default .navbar-collapse {
     position: absolute;
     right: 0;
@@ -1014,9 +984,7 @@ samp {
   }
 
   #notes_navbar {
-    /**
-     * Sharable code and 'out' function
-     */
+
     opacity: 0;
     transform: scaleX(0);
     transform-origin: top right;
@@ -1024,9 +992,7 @@ samp {
     -webkit-transform: scaleX(0);
     -webkit-transform-origin: top right;
     -webkit-transition: all 200ms cubic-bezier(0.47, 0, 0.4, 0.99) 0ms;
-    /**
-     *'In' Animation
-     */
+
   }
 
   #notes_navbar a {
@@ -1178,7 +1144,7 @@ samp {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
-    /* Force Hardware Acceleration in WebKit */
+
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -1189,7 +1155,7 @@ samp {
   }
 
   .navbar-custom.is-fixed {
-    /* when the user scrolls down, we hide the header right above the viewport */
+
     position: fixed;
     top: -61px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -1218,7 +1184,7 @@ samp {
   }
 
   .navbar-custom.is-visible {
-    /* if the user changes the scrolling direction, we show the header */
+
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
@@ -1236,7 +1202,7 @@ samp {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 0px;
-  /* 0 on mobile */
+
 }
 
 .intro-header.style-text {
@@ -1272,7 +1238,7 @@ samp {
 @media only screen and (min-width: 768px) {
   .intro-header {
     margin-bottom: 20px;
-    /* response on desktop */
+
   }
 }
 
@@ -1889,7 +1855,6 @@ img::-moz-selection {
   }
 }
 
-/* Tags support End*/
 .post-container img {
   display: block;
   max-width: 100%;
@@ -2029,12 +1994,10 @@ img::-moz-selection {
   -webkit-overflow-scrolling: touch;
 }
 
-/*CUSTOMe*/
 hr {
   display: none !important;
 }
 
-/*DARKSIDE*/
 body {
   background-color: black !important;
 }

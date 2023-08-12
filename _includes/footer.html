@@ -1,11 +1,8 @@
-<!-- Footer -->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <!-- SNS Link -->
                 {% include sns-links.html center=true %}
-
                 <p class="copyright text-muted">
                     <a href="aboutme" style="text-decoration: none; color: #777;">{{ site.title }}</a> &copy; <span
                         id="year"></span>
@@ -15,23 +12,17 @@
     </div>
 </footer>
 
-<!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
-<!-- Custom Theme JavaScript -->
 <script src="{{ "/js/notes.min.js " | prepend: site.baseurl }}"></script>
 
-<!-- Service Worker -->
 {% if site.service-worker %}
 <script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
 {% endif %}
 
-<!-- async load function -->
 <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
     function async(u, c) {
@@ -44,16 +35,14 @@
     }
 </script>
 
-<!--
-    <script>
-        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
-            hljs.initHighlightingOnLoad();
-        })
-    </script>
-    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
--->
+<!--<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">-->
+
 {% if page.title == 'Archive' %}
-<!-- jquery.tagcloud.js -->
 <script>
     async('{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}', function () {
         $.fn.tagcloud.defaults = {
@@ -66,7 +55,6 @@
 <script src='{{ "/js/archive.js " | prepend: site.baseurl }}'></script>
 {% endif %}
 
-<!--fastClick.js -->
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
         var $nav = document.querySelector("nav");
@@ -74,12 +62,10 @@
     })
 </script>
 
-<!-- Google Analytics -->
 {% if site.ga_track_id %}
 <script>
     var _gaId = '{{ site.ga_track_id }}';
     var _gaDomain = '{{ site.ga_domain }}';
-    // Originial
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
             (i[r].q = i[r].q || []).push(arguments)
@@ -90,26 +76,21 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
-<!-- Side Catalog -->
 {% if page.catalog %}
 <script type="text/javascript">
     function generateCatalog(selector) {
 
-        // interop with multilangual 
         if ('{{ page.multilingual }}' == 'true') {
             _containerSelector = 'div.post-container.active'
         } else {
             _containerSelector = 'div.post-container'
         }
 
-        // init
         var P = $(_containerSelector), a, n, t, l, i, c;
         a = P.find('h1,h2,h3,h4,h5,h6');
 
-        // clean
         $(selector).html('')
 
-        // appending
         a.each(function () {
             n = $(this).prop('tagName').toLowerCase();
             i = "#" + $(this).prop('id');
@@ -123,7 +104,6 @@
 
     generateCatalog(".catalog-body");
 
-    // toggle side catalog
     $(".catalog-toggle").click((function (e) {
         e.preventDefault();
         $('.side-catalog').toggleClass("fold")
@@ -147,15 +127,10 @@
 </script>
 {% endif %}
 
-
-<!-- Multi-Lingual -->
 {% if page.multilingual %}
-<!-- Handle Language Change -->
 <script type="text/javascript">
-    // get nodes
     var $en = document.querySelector(".en");
     var $es = document.querySelector(".es");
-    //var $ko = document.querySelector(".ko");
     var $select = document.querySelector("select");
 
     function getLang() { return new URLSearchParams(document.location.search).get("lang") }
@@ -163,47 +138,27 @@
     function setLang(newLang) {
         var params = new URLSearchParams(document.location.search)
         params.set("lang", newLang)
-        document.location.search = params.toString()  // refresh
+        document.location.search = params.toString()
     }
 
-    // handle render
     function _render() {
         var lang = getLang()
         if (lang == "es") {
-            // es
             $select.selectedIndex = 1;
             $es.style.display = "block";
             $es.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
-            //$ko.style.display = "block";
-            //$ko.classList.add("active");         
         } else {
-            //if(lang == "ko"){
-            // ko
-            //$select.selectedIndex = 2;
-            //$ko.style.display = "block";
-            //$ko.classList.add("active");
-            //$en.style.display = "none";
-            //$en.classList.remove("active");
-            //$es.style.display = "none";
-            //$es.classList.remove("active");
-            //}else{
-            // en
             $select.selectedIndex = 0;
             $en.style.display = "block";
             $en.classList.add("active");
             $es.style.display = "none";
             $es.classList.remove("active");
-            //$ko.style.display = "block";
-            //$ko.classList.add("active");
-            //}
         }
-        // interop with catalog 
         if ("{{ page.catalog }}") generateCatalog(".catalog-body");
     }
 
-    // handle select change
     function onLanChange(index) {
         if (index == 0) {
             lang = "en"
@@ -215,8 +170,6 @@
         setLang(lang)
     }
 
-
-    // init
     _render();
 </script>
 {% endif %}
