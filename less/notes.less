@@ -5,21 +5,16 @@
 @import "snackbar.less";
 @import "highlight.less";
 
-// Global Components
-
 body {
   .sans-serif;
   font-size: 16px;
   color: @gray-dark;
   //-webkit-user-select:text;
   overflow-x: hidden;
-
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-// -- Typography
 
 p {
   margin: 30px 0;
@@ -71,7 +66,6 @@ blockquote {
   }
 }
 
-// Utils Style Class can be used in Markdown.
 small.img-hint {
   display: block;
   margin-top: -20px;
@@ -83,9 +77,7 @@ br + small.img-hint {
 img.shadow {
   box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
-// Utils Style End
 
-// Select
 select {
   -webkit-appearance: none;
   margin-top: 15px;
@@ -99,7 +91,6 @@ select {
   }
 }
 
-// override table style in bootstrap
 table {
   margin-top: 10px;
 }
@@ -124,14 +115,13 @@ hr.small {
 }
 pre,
 .table-responsive {
-  // sometimes you should use vendor-feature.
   -webkit-overflow-scrolling: touch;
 }
 pre code {
   display: block;
   width: auto;
-  white-space: pre; // save it but no-wrap;
-  word-wrap: normal; // no-wrap
+  white-space: pre;
+  word-wrap: normal;
 }
 code,
 kbd,
@@ -140,18 +130,14 @@ samp {
   font-family: "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-// In the list of posts
 .postlist-container {
   margin-bottom: 15px;
 }
 
-// In the post.
 .post-container {
   a {
-    // display: inline-block;
-    // safari has bugs on word-break on inline elements.
+    //display: inline-block;
     color: #ffc107;
-    // different to @brand-primary
     &:hover,
     &:focus {
       color: @brand-primary;
@@ -193,7 +179,6 @@ samp {
       margin-top: 10px;
     }
   }
-  // downscale the font a little bit in mobile
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 30px;
@@ -265,21 +250,12 @@ samp {
     }
   }
   .anchorjs-link {
-    // I can not understand this but this made anchor always in the same line as title
     position: absolute;
     text-decoration: none !important;
   }
 }
 
-// Navigation
-
-// materialize, mobile only
 @media only screen and (max-width: 767px) {
-  /**
-   * Layout
-   * Since V1.6 we use absolute positioning to prevent to expand container-fluid
-   * which would cover tags. A absolute positioning make a new layer.
-   */
   .navbar-default .navbar-collapse {
     position: absolute;
     right: 0;
@@ -292,10 +268,6 @@ samp {
     width: 170px;
   }
   #notes_navbar {
-    /**
-     * Sharable code and 'out' function
-     */
-    // the container do width-transition
     opacity: 0;
     transform: scaleX(0);
     transform-origin: top right;
@@ -308,8 +280,7 @@ samp {
       line-height: 28px;
     }
     .navbar-collapse {
-      // the navbar do height-transition
-      height: 0px; // to solve container-mask-tags issue (default state).
+      height: 0px;
       transform: scaleY(0);
       transform-origin: top right;
       transition: transform 400ms cubic-bezier(0.32, 1, 0.23, 1) 0ms;
@@ -323,9 +294,6 @@ samp {
       transition: opacity 100ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
       -webkit-transition: opacity 100ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     }
-    /**
-     *'In' Animation
-     */
     &.in {
       transform: scaleX(1);
       -webkit-transform: scaleX(1);
@@ -349,7 +317,6 @@ samp {
 }
 
 .navbar-custom {
-  // materialize
   background: none;
   border: none;
   position: absolute;
@@ -360,7 +327,6 @@ samp {
   .sans-serif;
   .navbar-brand {
     font-weight: 800;
-    // materialize
     color: white;
     height: 56px;
     line-height: 25px;
@@ -376,7 +342,6 @@ samp {
         line-height: 20px;
         font-weight: 800;
         letter-spacing: 1px;
-        // only highlight in mobile
         &:active {
           background: rgba(0, 0, 0, 0.12);
         }
@@ -446,7 +411,6 @@ samp {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -455,7 +419,6 @@ samp {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     &.is-fixed {
-      /* when the user scrolls down, we hide the header right above the viewport */
       position: fixed;
       top: -61px;
       background-color: fade(white, 90%);
@@ -483,7 +446,6 @@ samp {
       }
     }
     &.is-visible {
-      /* if the user changes the scrolling direction, we show the header */
       -webkit-transform: translate3d(0, 100%, 0);
       -moz-transform: translate3d(0, 100%, 0);
       -ms-transform: translate3d(0, 100%, 0);
@@ -492,8 +454,6 @@ samp {
     }
   }
 }
-
-// Header
 
 .intro-header {
   &.style-text {
@@ -523,10 +483,9 @@ samp {
   background-color: @gray;
   background-attachment: scroll;
   .background-cover;
-  // NOTE: Background images are set within the HTML using inline CSS!
   margin-bottom: 0px;
   @media only screen and (min-width: 768px) {
-    margin-bottom: 20px; /* response on desktop */
+    margin-bottom: 20px;
   }
   .site-heading,
   .post-heading,
@@ -537,7 +496,6 @@ samp {
       padding: 150px 0;
     }
   }
-  // masterialize
   .site-heading {
     padding: 95px 0 70px;
     @media only screen and (min-width: 768px) {
@@ -625,8 +583,6 @@ samp {
   }
 }
 
-// Post Preview Pages (Home Page)
-
 .post-preview {
   > a {
     color: @gray-dark;
@@ -694,8 +650,6 @@ samp {
   }
 }
 
-// Sections
-
 .section-heading {
   font-size: 36px;
   margin-top: 60px;
@@ -726,7 +680,6 @@ footer {
     margin-bottom: 0;
     a {
       color: #ffc107;
-      // different to @brand-primary
       &:hover,
       &:focus {
         color: @brand-primary;
@@ -734,8 +687,6 @@ footer {
     }
   }
 }
-
-// Contact Form Styles
 
 .floating-label-form-group {
   font-size: 14px;
@@ -795,8 +746,6 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid @gray-light;
 }
 
-// Button Styles
-
 .btn {
   .sans-serif;
   text-transform: uppercase;
@@ -820,8 +769,6 @@ form .row:first-child .floating-label-form-group {
     color: white;
   }
 }
-
-// Pager Styling
 
 .pager {
   margin: 20px 0 0 !important;
@@ -853,7 +800,6 @@ form .row:first-child .floating-label-form-group {
       background-color: @brand-primary;
       border: 1px solid @brand-primary;
 
-      // V1.6 display title
       > span {
         color: white;
       }
@@ -871,8 +817,6 @@ form .row:first-child .floating-label-form-group {
     }
   }
 }
-
-// -- Highlight Color Customization
 
 ::-moz-selection {
   color: white;
@@ -943,7 +887,7 @@ img::-moz-selection {
     padding: 55px 0;
   }
 }
-// tag_cloud
+
 #tag_cloud {
   margin: 20px 0 15px 0;
   a,
@@ -989,12 +933,10 @@ img::-moz-selection {
 }
 
 .t {
-  //margin-top: 50px;
   &:first-child {
     margin-top: 0px;
   }
   hr:last-of-type {
-    //display: none;
   }
 }
 .listing-seperator {
@@ -1009,7 +951,6 @@ img::-moz-selection {
   }
 }
 
-// Customize Style for Posts in Mini-Post-List
 .mini-post-list {
   margin: 20px 0 15px 0;
   .tag-text {
@@ -1054,8 +995,6 @@ img::-moz-selection {
   }
 }
 
-/* Tags support End*/
-
 .post-container img {
   display: block;
   max-width: 100%;
@@ -1083,7 +1022,6 @@ img::-moz-selection {
   .icon-bar {
     width: 18px;
     border-radius: 0px;
-    // materialize
     background-color: white;
   }
   .icon-bar + .icon-bar {
@@ -1124,7 +1062,6 @@ img::-moz-selection {
       .ds-post-button {
         border-bottom: 1px solid #ccc;
       }
-      //v1.6 flatten button
       .ds-post-button {
         background: white;
         box-shadow: none;
@@ -1186,7 +1123,6 @@ img::-moz-selection {
   color: #ddd;
 }
 
-// MathJax Overflow
 .MathJax_SVG_Display {
   overflow: auto;
   -webkit-overflow-scrolling: touch;

@@ -8,13 +8,11 @@ multilingual: true
 
 {% include multilingual-sel.html %}
 
-<!-- English Version -->
 <div class="en post-container">
   {% capture about_en %}{% include about/en.md %}{% endcapture %} {{ about_en |
   markdownify }}
 </div>
 
-<!-- Spanish Version -->
 <div class="es post-container">
   {% capture about_es %}{% include about/es.md %}{% endcapture %} {{ about_es |
   markdownify }}
@@ -24,18 +22,14 @@ multilingual: true
 <div class="comment">
   <div id="disqus_thread" class="disqus-thread"></div>
 </div>
-
 <script type="text/javascript">
-  /* * * CONFIGURATION VARIABLES * * */
   var disqus_shortname = "{{site.disqus_username}}";
   var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
   var disqus_url = "{{site.url}}{{page.url}}";
-
   (function () {
     var dsq = document.createElement("script");
     dsq.type = "text/javascript";
     dsq.async = true;
-    @@ -42,4 +42,4 @@
     dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
     (
       document.getElementsByTagName("head")[0] ||
