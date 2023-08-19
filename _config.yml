@@ -17,7 +17,7 @@ github_username:
 
 highlighter: rouge
 permalink: pretty
-paginate: 25
+paginate: 10
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json"]
 anchorjs: true
 
@@ -45,7 +45,7 @@ sidebar-about-description: ""
 
 # Tags
 featured-tags: true
-featured-condition-size: 1
+featured-condition-size: 10
 
 # Friends
 #friends: [
