@@ -4,7 +4,7 @@ title:        "Parla"
 subtitle:     ""
 date:         2023-08-19
 author:       ""
-header-img:   ""
+
 header-style: text
 catalog:      false
 multilingual: false
