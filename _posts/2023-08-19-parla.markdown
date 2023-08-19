@@ -1,5 +1,5 @@
 ---
-layout:       keynote
+layout:       post
 header-style: text
 header-img:   ""
 multilingual: false
