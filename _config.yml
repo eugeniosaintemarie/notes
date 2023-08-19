@@ -40,12 +40,12 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true
-sidebar-about-description: ""
+sidebar-about-description: "algo"
 #sidebar-avatar: sys/img/avatar.jpg
 
 # Tags
 featured-tags: true
-featured-condition-size: 10
+featured-condition-size: 1
 
 # Friends
 #friends: [
