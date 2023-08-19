@@ -45,7 +45,7 @@ sidebar-about-description: "algo"
 
 # Tags
 featured-tags: true
-featured-condition-size: 1
+featured-condition-size: 0
 
 # Friends
 #friends: [
