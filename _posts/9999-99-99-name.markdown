@@ -1,0 +1,23 @@
+---
+layout:       post/keynote
+header-style: text
+header-img:   "img/posts/9999-99-99-name.jpg"
+multilingual: true
+catalog:      false
+title:        ""
+subtitle:     ""
+date:         9999-99-99
+author:       ""
+tags:
+            - Quotes
+---
+
+<div class="en post-container">
+    {% capture about_en %}{% include posts/9999-99-99-name/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
+
+<div class="es post-container">
+    {% capture about_es %}{% include posts/9999-99-99-name/es.md %}{% endcapture %}
+    {{ about_es | markdownify }}
+</div>

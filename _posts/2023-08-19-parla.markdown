@@ -1,0 +1,22 @@
+---
+layout:       keynote
+header-style: text
+header-img:   ""
+multilingual: false
+catalog:      false
+title:        ""
+subtitle:     ""
+date:         9999-99-99
+author:       ""
+tags:
+            - Songs
+---
+
+Parla, la gente purtroppo parla\
+Non sa di che cosa parla\
+Tu portami dove sto a galla\
+Che qui mi manca l'aria\
+Parla, la gente purtroppo parla\
+Non sa di che cazzo parla\
+Tu portami dove sto a galla\
+Che qui mi manca l'aria\
