@@ -40,7 +40,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true
-sidebar-about-description: "algo"
+sidebar-about-description: ""
 #sidebar-avatar: sys/img/avatar.jpg
 
 # Tags
