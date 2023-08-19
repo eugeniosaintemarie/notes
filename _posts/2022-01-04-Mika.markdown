@@ -1,14 +1,15 @@
 ---
-layout:     post
-title:      "Mika"
-subtitle:   ""
-date:       2022-01-04 
-author:     ""
-header-img: "img/posts/2022-01-04-Mika.jpg"
-catalog:    false
+layout:       post
+header-style: 
+header-img:   "img/posts/2022-01-04-Mika.jpg"
 multilingual: true
+catalog:      false
+title:        "Mika"
+subtitle:     ""
+date:         2022-01-04 
+author:       ""
 tags:
-  - Memories
+              - Memories
 ---
 
 <div class="en post-container">

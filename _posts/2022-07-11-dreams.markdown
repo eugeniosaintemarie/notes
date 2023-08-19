@@ -1,13 +1,13 @@
 ---
-layout:     post
-title:      "Dreams"
-subtitle:   ""
-date:       2022-05-04 
-author:     ""
-header-img: ""
+layout:       post
 header-style: text
-catalog:    false
+header-img:   ""
 multilingual: false
+catalog:      false
+title:        "Dreams"
+subtitle:     ""
+date:         2022-05-04 
+author:       ""
 tags:
   - Quotes
 ---

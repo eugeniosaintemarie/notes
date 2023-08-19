@@ -1,14 +1,15 @@
 ---
-layout:     post
-title:      "God"
-subtitle:   "k3rnel-pan1c.ksd"
-date:       2019-12-29 
-author:     ""
-header-img: "img/posts/2019-12-29-mr-robot-kernel-panic.jpg"
-catalog:    false
+layout:       post
+header-style: 
+header-img:   "img/posts/2019-12-29-mr-robot-kernel-panic.jpg"
 multilingual: true
+catalog:      false
+title:        "God"
+subtitle:     "k3rnel-pan1c.ksd"
+date:         2019-12-29 
+author:       ""
 tags:
-  - Movies/Shows
+              - Movies/Shows
 ---
 
 <div class="en post-container">

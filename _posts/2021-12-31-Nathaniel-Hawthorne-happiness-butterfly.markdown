@@ -1,14 +1,15 @@
 ---
-layout:     post
-title:      "Happiness"
-subtitle:   ""
-date:       2021-12-31 
-author:     "Nathaniel Hawthorne"
-header-img: "img/posts/2021-12-31-Nathaniel-Hawthorne-happiness-butterfly.jpg"
-catalog:    false
+layout:       post
+header-style: 
+header-img:   "img/posts/2021-12-31-Nathaniel-Hawthorne-happiness-butterfly.jpg"
 multilingual: true
+catalog:      false
+title:        "Happiness"
+subtitle:     ""
+date:         2021-12-31 
+author:       "Nathaniel Hawthorne"
 tags:
-  - Quotes
+              - Quotes
 ---
 
 <div class="en post-container">

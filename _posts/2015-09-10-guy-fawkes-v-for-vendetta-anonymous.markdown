@@ -1,14 +1,15 @@
 ---
-layout: post
-title: 'Guy Fawkes, V for Vendetta, Anonymous'
-date: 2015-9-10
-header-img: img/posts/2015-09-10-guy-fawkes-v-for-vendetta-anonymous.jpg
-catalog: true
-lang: null
-author: ""
+layout:       post
+header-style: 
+header-img:   "img/posts/2015-09-10-guy-fawkes-v-for-vendetta-anonymous.jpg"
+multilingual: false
+catalog:      true
+title:        'Guy Fawkes, V for Vendetta, Anonymous'
+subtitle:     ""
+author:       ""
+date:         2015-09-10
 tags:
-  - Stories
-published: true
+              - Stories
 ---
 
 ![“V for Vendetta” — Alan Moore, David Lloyd / “V for Vendetta” — James McTeigue]({{site.baseurl}}/img/posts/in-post/2015-09-10-guy-fawkes-v-for-vendetta-anonymous-0.jpg)
