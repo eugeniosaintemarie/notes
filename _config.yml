@@ -39,7 +39,7 @@ ga_track_id: "UA-82621918-1" #Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar: false
+sidebar: true
 sidebar-about-description: ""
 #sidebar-avatar: sys/img/avatar.jpg
 
