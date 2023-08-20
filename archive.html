@@ -53,10 +53,8 @@ header-img: "img/sys/tag-bg.jpg"
 				{%- endfor -%}
 
 				{% comment %} group by year {% endcomment %}
-				{% comment %}
 				{%- assign _currentdate = _article.date | date: '%Y' -%}
 				{%- if _currentdate != _date -%}
-				{% endcomment %}
 				{%- unless forloop.first -%}</section>{%- endunless -%}
 				<section>
 					<span class="fa listing-seperator">
