@@ -1,9 +1,10 @@
 ---
-layout:       post
+layout:       keynote
 header-style: text
 header-img:   ""
 multilingual: false
 catalog:      false
+iframe:       "https://www.youtube.com/embed/QN1odfjtMoo"
 title:        "Zitti e buoni"
 subtitle:     ""
 date:         2021-12-31
