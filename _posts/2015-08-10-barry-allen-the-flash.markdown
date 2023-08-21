@@ -1,8 +1,8 @@
 ---
 layout:       post
 header-style: 
-header-img:   "img/posts/2015-08-10-barry-allen-the-flash"
-multilingual: true
+header-img:   "img/posts/2015-08-10-barry-allen-the-flash.jpg"
+multilingual: false
 catalog:      false
 title:        "Barry Allen, The Flash"
 subtitle:     "La historia de Flash, antes del reinicio del universo DC a 'The New 52'"
