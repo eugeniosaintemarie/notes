@@ -1,0 +1,16 @@
+---
+layout:       keynote
+header-style: text
+header-img:   ""
+multilingual: false
+catalog:      false
+iframe:       "https://eugeniosaintemarie.github.io/quotes/"
+title:        "Quotes"
+subtitle:     ""
+date:         2015-01-01
+author:       ""
+tags:
+            - Quotes
+---
+
+<style>article, footer {display: none !important;}</style>

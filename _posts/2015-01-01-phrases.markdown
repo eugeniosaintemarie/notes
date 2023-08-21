@@ -4,10 +4,10 @@ header-style: text
 header-img:   ""
 multilingual: false
 catalog:      false
-iframe:       "https://eugeniosaintemarie.github.io/quotes/"
+iframe:       "https://eugeniosaintemarie.github.io/phrases/"
 title:        "Quotes"
 subtitle:     ""
-date:         2023-08-21
+date:         2015-01-01
 author:       ""
 tags:
             - Quotes
