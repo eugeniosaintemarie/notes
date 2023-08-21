@@ -39,4 +39,4 @@ They don't know what the fuck they're talking about
 You take me where I'm afloat\
 That I lack air here
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QN1odfjtMoo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QN1odfjtMoo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
