@@ -2054,6 +2054,22 @@ body {
   color: #f8f8f8 !important
 }
 
+.iframeyoutube {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.iframeyoutube iframe, .iframeyoutube object, .iframeyoutube embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 @media only screen and (max-width: 767px) {
   #notes_navbar a {
     color: black !important;
@@ -2067,20 +2083,4 @@ body {
 
 .side-catalog .catalog-body li a {
   color: white !important;
-}
-
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
-}
-
-.iframeyoutube iframe, .iframeyoutube object, .iframeyoutube embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
 }
