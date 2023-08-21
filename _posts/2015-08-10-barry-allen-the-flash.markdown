@@ -1,7 +1,7 @@
 ---
 layout:       post
 header-style: 
-header-img:   "img/posts/2015-08-10-barry-allen-the-flash.jpg"
+header-img:   "img/posts/2015-08-10-Barry-Allen-The-Flash.jpg"
 multilingual: false
 catalog:      true
 title:        "Barry Allen, The Flash"

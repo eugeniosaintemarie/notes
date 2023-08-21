@@ -1,5 +1,5 @@
 ---
-layout:       post/keynote
+layout:       post
 header-style: text
 header-img:   "img/posts/9999-99-99-name.jpg"
 multilingual: true

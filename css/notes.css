@@ -2054,7 +2054,7 @@ body {
   color: #f8f8f8 !important
 }
 
-.iframeyoutube {
+.iframe-youtube {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
@@ -2062,7 +2062,7 @@ body {
 	overflow: hidden;
 }
 
-.iframeyoutube iframe, .iframeyoutube object, .iframeyoutube embed {
+.iframe-youtube iframe, .iframe-youtube object, .iframe-youtube embed {
 	position: absolute;
 	top: 0;
 	left: 0;

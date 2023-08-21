@@ -1,7 +1,7 @@
 ---
 layout:       post
 header-style: 
-header-img:   "img/posts/2019-12-29-mr-robot-hello-friend.jpg"
+header-img:   "img/posts/2019-12-29-Mr-Robot-hello-friend.jpg"
 multilingual: true
 catalog:      false
 title:        "Society"
