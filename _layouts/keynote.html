@@ -19,16 +19,14 @@ layout: default
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
-                        Previous<br>
-                        <span>{{page.previous.title}}</span>
+                        &lt;<br />
                         </a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
-                        Next<br>
-                        <span>{{page.next.title}}</span>
+                        ><br />
                         </a>
                     </li>
                     {% endif %}
@@ -43,12 +41,12 @@ layout: default
                 {% endif %}
             </div>
 
-            <div class="sidebar-container
+            <!--<div class="sidebar-container
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1 ">
                 {% include featured-tags.html %}
                 {% include friends.html %}
-            </div>
+            </div>-->
         </div>
     </div>
 </article>
