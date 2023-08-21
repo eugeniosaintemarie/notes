@@ -2070,17 +2070,6 @@ body {
 }
 
 .iframeyoutube {
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	position: relative;
-	}
-
-.iframeyoutube iframe, .iframeyoutube object, .iframeyoutube embed {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
+  aspect-ratio: 16 / 9;
+  width: 100%;
 	}
