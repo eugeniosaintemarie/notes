@@ -3,14 +3,14 @@ layout:       post
 header-style: 
 header-img:   "img/posts/2015-08-10-barry-allen-the-flash.jpg"
 multilingual: false
-catalog:      false
+catalog:      true
 title:        "Barry Allen, The Flash"
 subtitle:     "La historia de Flash, antes del reinicio del universo DC a 'The New 52'"
 date:         2015-08-10
 author:       ""
 tags:
             - Stories
-published: true
+published:    true
 ---
 
 >Creado por Robert Kanigher y Carmine Infantino, hizo su debut en el cómic Showcase #4 en octubre de 1956. Como miembro fundador de la Liga de la Justicia y el actual velocista del Universo de DC Comics, es uno de los personajes más destacados de la editorial. Ha desempeñado un papel crucial en numerosas crisis y momentos clave en la historia y trayectoria de la compañía.
@@ -124,3 +124,32 @@ Luego, Barry e Iris tienen una conversación en la cafetería, donde ella lo ani
 
 Barry lleva flores a la tumba de su madre y se disculpa por su culpa. Mientras se aleja al caer el sol, el Profesor Zoom prepara su venganza definitiva...
 ![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-20.jpg)
+
+### Flashpoint
+
+![Flashpoint]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-21.jpg)
+
+Barry despierta en un mundo que no reconoce. Descubre que este nuevo mundo es un resultado alternativo debido a un evento en el pasado. En esta realidad, Aquaman y Wonder Woman están en guerra, lo que ha llevado a una catástrofe global. Además, Superman es retenido en un laboratorio y Gotham City está en ruinas, siendo gobernada por un Batman extremadamente violento.
+
+Barry se da cuenta de que su alteración en la línea de tiempo ha creado este nuevo mundo caótico. Sin sus poderes como Flash, Barry busca a Batman, quien resulta ser Thomas Wayne, el padre de Bruce Wayne.
+![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-22.jpg)
+Thomas Wayne ha asumido el papel de Batman después de que su hijo Bruce fuera asesinado en un intento de asalto. Barry convence a Thomas de ayudarlo a restaurar la línea de tiempo original.
+
+Para hacerlo, Barry necesita recrear el momento en el que obtuvo sus poderes.
+![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-23.jpg)
+Reúne a varios héroes y villanos, incluidos Cyborg, Element Woman y Captain Thunder, en un esfuerzo por liberar a Superman de su encarcelamiento. Juntos, planean detener la guerra entre Aquaman y Wonder Woman.
+![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-24.jpg)
+
+Sin embargo, mientras intentan desactivar una bomba creada por Reverse-Flash, Barry descubre que Reverse-Flash ha estado manipulando la línea de tiempo desde el principio. Reverse-Flash le revela que su alteración de la línea de tiempo tenía la intención de destruir la vida de Barry y su mundo.
+
+Barry y Batman enfrentan a Reverse-Flash, y en la lucha resultante, Batman mata a Reverse-Flash.
+![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-25.jpg)
+Barry se da cuenta de que para restaurar la línea de tiempo original, debe regresar al pasado y dejar que su madre muera, lo que desencadenó los eventos de "Flashpoint". Barry se despide de Thomas Wayne y vuelve al pasado para corregir su error.
+![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-26.jpg)
+
+Al hacerlo, Barry logra restaurar la línea de tiempo original. En esta versión, cumple con la petición de Thomas Wayne entregándole la nota a su hijo Bruce.
+![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-27.jpg)
+Sin embargo, se da cuenta de que el mundo ha vuelto a sufrir cambios significativos una vez más.
+
+Estos cambios en la realidad conduce a la creación de "The New 52", un relanzamiento de las principales series de cómics de DC con historias reiniciadas y actualizadas.
+![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-28.jpg)
