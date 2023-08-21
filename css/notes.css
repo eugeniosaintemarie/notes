@@ -1638,11 +1638,10 @@ body {
 }
 .post-container p {
   color: #f8f8f8 !important;
-  font-size: ;
 }
 
 em {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 .post-container .pager li a span {
