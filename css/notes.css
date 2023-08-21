@@ -2070,6 +2070,6 @@ body {
 }
 
 .iframeyoutube {
-  aspect-ratio: 16 / 9;
-  width: 100%;
+  aspect-ratio: 16 / 9 !important;
+  width: 100% !important;
 	}
