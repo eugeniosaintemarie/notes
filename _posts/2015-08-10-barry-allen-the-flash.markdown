@@ -13,7 +13,8 @@ tags:
 published: true
 ---
 
-Creado por Robert Kanigher y Carmine Infantino, hizo su debut en el cómic Showcase #4 en octubre de 1956. Como miembro fundador de la Liga de la Justicia y el actual velocista del Universo de DC Comics, es uno de los personajes más destacados de la editorial. Ha desempeñado un papel crucial en numerosas crisis y momentos clave en la historia y trayectoria de la compañía.
+>Creado por Robert Kanigher y Carmine Infantino, hizo su debut en el cómic Showcase #4 en octubre de 1956. Como miembro fundador de la Liga de la Justicia y el actual velocista del Universo de DC Comics, es uno de los personajes más destacados de la editorial. Ha desempeñado un papel crucial en numerosas crisis y momentos clave en la historia y trayectoria de la compañía.
+
 
 Barry Allen y su hermano gemelo nacieron con una o dos semanas de retraso en un pequeño pueblo del medio oeste de Fallville, Iowa. Sus padres, Henry y Nora Allen, dieron a luz a los gemelos. Sin embargo, debido a una confusión, el hermano de Barry fue declarado muerto por el Dr. Gilmore. En realidad, el bebé estaba sano y fue entregado a otra familia, los Thawne, que habían sufrido la pérdida de su propio hijo durante el parto.
 
