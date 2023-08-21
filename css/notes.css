@@ -1638,7 +1638,13 @@ body {
 }
 .post-container p {
   color: #f8f8f8 !important;
+  font-size: ;
 }
+
+em {
+  font-size: 12px;
+}
+
 .post-container .pager li a span {
   color: black;
   font-weight: 700;
