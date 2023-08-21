@@ -5,7 +5,7 @@ header-img:   "img/posts/2015-08-10-barry-allen-the-flash.jpg"
 multilingual: false
 catalog:      true
 title:        "Barry Allen, The Flash"
-subtitle:     "La historia de Flash, antes del reinicio del universo DC a 'The New 52'"
+subtitle:     "La historia de Flash previa al reinicio del universo DC en 'The New 52'"
 date:         2015-08-10
 author:       ""
 tags:
