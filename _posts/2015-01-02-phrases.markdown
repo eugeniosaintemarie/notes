@@ -5,9 +5,9 @@ header-img:   ""
 multilingual: false
 catalog:      false
 iframe:       "https://eugeniosaintemarie.github.io/phrases/"
-title:        "Quotes"
+title:        "Phrases"
 subtitle:     ""
-date:         2015-01-01
+date:         2015-01-02
 author:       ""
 tags:
             - Quotes
