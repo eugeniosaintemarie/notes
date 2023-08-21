@@ -15,7 +15,7 @@ published:    true
 
 >Creado por Robert Kanigher y Carmine Infantino, hizo su debut en el cómic Showcase #4 en octubre de 1956. Como miembro fundador de la Liga de la Justicia y el actual velocista del Universo de DC Comics, es uno de los personajes más destacados de la editorial. Ha desempeñado un papel crucial en numerosas crisis y momentos clave en la historia y trayectoria de la compañía.
 
-
+### Comienzos
 Barry Allen y su hermano gemelo nacieron con una o dos semanas de retraso en un pequeño pueblo del medio oeste de Fallville, Iowa. Sus padres, Henry y Nora Allen, dieron a luz a los gemelos. Sin embargo, debido a una confusión, el hermano de Barry fue declarado muerto por el Dr. Gilmore. En realidad, el bebé estaba sano y fue entregado a otra familia, los Thawne, que habían sufrido la pérdida de su propio hijo durante el parto.
 
 El nacimiento tardío de Barry contribuyó a desarrollar en él la costumbre de llegar tarde a todos lados. Durante su infancia, encontró consuelo en las páginas de las aventuras de su superhéroe favorito, Jay Garrick, el Flash original. Su pasión por estas historias era tal que solía recrearlas con su amiga Daphne Dean.
@@ -37,6 +37,7 @@ Al día siguiente, Barry salvó a Iris de ser alcanzada por una bala perdida, lo
 Convertido en un héroe establecido, Barry cofundó la Liga de la Justicia de América junto a otros héroes. Durante este tiempo, entabló amistad con Hal Jordan, conocido como Linterna Verde, y participó en numerosas aventuras dentro y fuera de la Liga. Más tarde, Barry descubrió que su héroe de la infancia, Jay Garrick, era real y se convirtieron en amigos. Su capacidad para viajar en el tiempo, gracias a su velocidad, les permitió compartir experiencias.
 ![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-5.jpg)
 
+### Kid Flash
 Durante un verano, el sobrino de Iris, Wally West, un apasionado de Flash, visitó Ciudad Central. Sabiendo que Barry era amigo del velocista, Wally organizó un encuentro entre ellos. Barry compartió con Wally cómo obtuvo sus poderes y el niño quedó deseando que algo similar le ocurriera algún día. De manera curiosa, Barry había colocado un botiquín con químicos en el lugar. Esa misma tarde, una tormenta mojó la ciudad, y el mismo accidente que otorgó la velocidad a Barry ocurrió a Wally, cubriéndolo con químicos cargados eléctricamente.
 ![]({{site.baseurl}}/img/posts/in-post/2015-08-10-barry-allen-the-flash-6.jpg)
 
