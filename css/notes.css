@@ -2025,11 +2025,11 @@ body {
 }
 
 .sidebar-container .tags a {
-  color: white !important;
+  color: white;
 }
 
 .sidebar-container a {
-  color: initial !important;
+  color: initial;
 }
 
 .post-container h1,
