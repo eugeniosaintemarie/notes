@@ -5,7 +5,7 @@ header-img:   ""
 multilingual: true
 catalog:      false
 title:        "危机与机会"
-subtitle:     "Opportunity in crisis"
+subtitle:     "Crisis and opportunity"
 date:         2023-08-06
 author:       ""
 tags:
