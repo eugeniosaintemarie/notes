@@ -13,14 +13,14 @@ tags:
 ---
 
 <div class="en post-container">
-    {% capture about_en %}
+    {% capture about_en %}{% include}
     Let us be grateful to the mirror for revealing to us our appearance only
     {% endcapture %}
     {{ about_en | markdownify }}
 </div>
 
 <div class="es post-container">
-    {% capture about_es %}
+    {% capture about_es %}{% include}
     Seamos agradecidos al espejo por sólo revelar nuestro aspecto
     {% endcapture %}
     {{ about_es | markdownify }}
