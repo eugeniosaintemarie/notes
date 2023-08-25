@@ -2,7 +2,7 @@
 layout:       post
 header-style: text
 header-img:   ""
-multilingual: false
+multilingual: true
 catalog:      false
 iframe:       "https://www.youtube.com/embed/QN1odfjtMoo"
 title:        "Zitti e buoni"
@@ -13,30 +13,64 @@ tags:
             - Songs
 ---
 
-<i style="color: #404040;">(italian)</i><br>
-Parla, la gente purtroppo parla\
-Non sa di che cosa parla
+<div class="en post-container">
+    {{ "
+        <i style="color: #404040;">(italian)</i><br>
+        Parla, la gente purtroppo parla\
+        Non sa di che cosa parla
 
-Tu portami dove sto a galla\
-Che qui mi manca l'aria
+        Tu portami dove sto a galla\
+        Che qui mi manca l'aria
 
-Parla, la gente purtroppo parla\
-Non sa di che cazzo parla
+        Parla, la gente purtroppo parla\
+        Non sa di che cazzo parla
 
-Tu portami dove sto a galla\
-Che qui mi manca l'aria
+        Tu portami dove sto a galla\
+        Che qui mi manca l'aria
 
-<i style="color: #404040;">(english)</i><br>
-Talk, people unfortunately talk\
-They don't know what they're talking about
+        <i style="color: #404040;">(english)</i><br>
+        Talk, people unfortunately talk\
+        They don't know what they're talking about
 
-You take me where I am afloat\
-That I lack air here
+        You take me where I am afloat\
+        That I lack air here
 
-Talk, people unfortunately talk\
-They don't know what the fuck they're talking about
+        Talk, people unfortunately talk\
+        They don't know what the fuck they're talking about
 
-You take me where I'm afloat\
-That I lack air here
+        You take me where I'm afloat\
+        That I lack air here
+    " | markdownify }}
+</div>
+
+<div class="es post-container">
+    {{ "
+        <i style="color: #404040;">(italian)</i><br>
+        Parla, la gente purtroppo parla\
+        Non sa di che cosa parla
+
+        Tu portami dove sto a galla\
+        Che qui mi manca l'aria
+
+        Parla, la gente purtroppo parla\
+        Non sa di che cazzo parla
+
+        Tu portami dove sto a galla\
+        Che qui mi manca l'aria
+
+        <i style="color: #404040;">(español)</i><br>
+        Habla, la gente desgraciadamente habla
+        No saben de lo que hablan
+
+        Me llevas donde estoy a flote\
+        Que aquí me falta el aire
+
+        Habla, la gente por desgracia habla\
+        No saben de qué mierda hablan
+
+        Me llevas donde estoy a flote\
+        Que me falta aire aquí
+    " | markdownify }}
+</div>
 
 <div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/QN1odfjtMoo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
