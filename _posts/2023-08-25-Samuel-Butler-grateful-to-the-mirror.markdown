@@ -13,11 +13,9 @@ tags:
 ---
 
 <div class="en post-container">
-    {% assign about_en = "Let us be grateful to the mirror for revealing to us our appearance only" %}
-    {{ about_en | markdownify }}
+    {{ "This is the English version content..." | markdownify }}
 </div>
 
 <div class="es post-container">
-    {% assign about_es = "Seamos agradecidos al espejo por sólo revelar nuestro aspecto" %}
-    {{ about_es | markdownify }}
+    {{ "Este es el contenido en español..." | markdownify }}
 </div>
