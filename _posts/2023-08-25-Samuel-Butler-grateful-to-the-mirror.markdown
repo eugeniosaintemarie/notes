@@ -13,9 +13,9 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ "This is the English version content..." | markdownify }}
+    {{ "Let us be grateful to the mirror for revealing to us our appearance only" | markdownify }}
 </div>
 
 <div class="es post-container">
-    {{ "Este es el contenido en español..." | markdownify }}
+    {{ "Seamos agradecidos al espejo por sólo revelar nuestro aspecto" | markdownify }}
 </div>
