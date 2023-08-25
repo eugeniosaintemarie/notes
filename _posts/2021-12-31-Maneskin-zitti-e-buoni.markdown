@@ -14,7 +14,7 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ "(italian)
+    {{ "(italian)\
         Parla, la gente purtroppo parla\
         Non sa di che cosa parla\
         Tu portami dove sto a galla\
@@ -23,7 +23,8 @@ tags:
         Non sa di che cazzo parla\
         Tu portami dove sto a galla\
         Che qui mi manca l'aria
-        (english)
+        <br><br>        
+        (english)\
         Talk, people unfortunately talk\
         They don't know what they're talking about\
         You take me where I am afloat\
@@ -35,7 +36,7 @@ tags:
 </div>
 
 <div class="es post-container">
-    {{ "(italiano)
+    {{ "(italiano)\
         Parla, la gente purtroppo parla\
         Non sa di che cosa parla\
         Tu portami dove sto a galla\
@@ -44,7 +45,8 @@ tags:
         Non sa di che cazzo parla\
         Tu portami dove sto a galla\
         Che qui mi manca l'aria\
-        (español)
+        <br><br>
+        (español)\
         Habla, la gente desgraciadamente habla\
         No saben de lo que hablan\
         Me llevas donde estoy a flote\
