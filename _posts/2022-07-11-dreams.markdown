@@ -2,14 +2,20 @@
 layout:       post
 header-style: text
 header-img:   ""
-multilingual: false
+multilingual: true
 catalog:      false
 title:        "Dreams"
 subtitle:     ""
 date:         2022-05-04 
 author:       ""
 tags:
-  - Quotes
+            -  Quotes
 ---
 
-I don't think not living your dream means you have failed at life, and I don't think living your dream means you have succeeded either
+<div class="en post-container">
+    {{ "I don't think not living your dream means you have failed at life, and I don't think living your dream means you have succeeded either." | markdownify }}
+</div>
+
+<div class="es post-container">
+    {{ "No creo que no vivir tu sueño signifique que has fracasado en la vida, y tampoco creo que vivir tu sueño signifique que has tenido éxito." | markdownify }}
+</div>

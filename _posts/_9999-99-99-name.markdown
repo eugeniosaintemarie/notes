@@ -9,8 +9,17 @@ subtitle:     ""
 date:         9999-99-99
 author:       ""
 tags:
-            - Quotes
+            - Tag
 ---
+
+<div class="en post-container">
+    {{ "" | markdownify }}
+</div>
+
+<div class="es post-container">
+    {{ "" | markdownify }}
+</div>
+
 
 <div class="en post-container">
     {% capture about_en %}{% include posts/9999-99-99-name/en.md %}{% endcapture %}

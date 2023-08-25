@@ -1,3 +1,0 @@
--What is it about society that disappoints you so much?
-
--Oh, i don't know. Is it that we collectively thought Steve Jobs was a great man, when when we knew he made billions off the backs of children? Or maybe it's that it feels like all our heroes are counterfeit. the world itself's just a big hoax. Spamming with our running commentary of bullshit masquerading as insight, our social media faking as intimacy. Or is it that we voted for this? Not with our rigged elections, but with our things, our property, our money. I'm not saying anything new. We all know why we do this, not because Hunger Games books make us happy but because we wanna be sedated. Because it's painful not to pretend, because we're cowards. Fuck society.

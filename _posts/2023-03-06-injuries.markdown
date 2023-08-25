@@ -2,7 +2,7 @@
 layout:       post
 header-style: text
 header-img:   ""
-multilingual: false
+multilingual: true
 catalog:      false
 title:        "Injuries"
 subtitle:     ""
@@ -12,4 +12,10 @@ tags:
             - Quotes
 ---
 
-If you don't heal what hurt you, you'll bleed on people who didn't cut you.
+<div class="en post-container">
+    {{ "If you don't heal what hurt you, you'll bleed on people who didn't cut you." | markdownify }}
+</div>
+
+<div class="es post-container">
+    {{ "Si no curas lo que te hirió, sangrarás sobre gente que no te cortó." | markdownify }}
+</div>

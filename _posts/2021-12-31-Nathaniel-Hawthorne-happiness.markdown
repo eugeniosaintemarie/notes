@@ -9,15 +9,13 @@ subtitle:     ""
 date:         2021-12-31 
 author:       "Nathaniel Hawthorne"
 tags:
-              - Quotes
+            - Quotes
 ---
 
 <div class="en post-container">
-    {% capture about_en %}{% include posts/2021-12-31-Nathaniel-Hawthorne-happiness-butterfly/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+    {{ "Happiness is like a butterfly which, when pursued, is always beyond our grasp, but, if you will sit down quietly, may alight upon you." | markdownify }}
 </div>
 
 <div class="es post-container">
-    {% capture about_es %}{% include posts/2021-12-31-Nathaniel-Hawthorne-happiness-butterfly/es.md %}{% endcapture %}
-    {{ about_es | markdownify }}
+    {{ "La felicidad es como una mariposa que, cuando se persigue, está siempre fuera de nuestro alcance, pero que, si te sientas tranquilamente, puede posarse sobre ti." | markdownify }}
 </div>
