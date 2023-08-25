@@ -2,8 +2,8 @@
 layout:       post
 header-style: text
 header-img:   ""
-catalog:      false
 multilingual: true
+catalog:      false
 title:        "Grateful to the mirror"
 subtitle:     ""
 date:         2023-08-25
