@@ -21,7 +21,7 @@ paginate: 10
 exclude: ["less", "node_modules", "Gruntfile.js", "package.json"]
 anchorjs: true
 
-lang: en
+site-lang: en
 
 plugins: [jekyll-paginate]
 markdown: kramdown
