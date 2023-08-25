@@ -14,8 +14,7 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ "
-        (italian)
+    {{ "(italian)
         Parla, la gente purtroppo parla\
         Non sa di che cosa parla\
         Tu portami dove sto a galla\
@@ -32,13 +31,11 @@ tags:
         Talk, people unfortunately talk\
         They don't know what the fuck they're talking about\
         You take me where I'm afloat\
-        That I lack air here
-    " | markdownify }}
+        That I lack air here" | markdownify }}
 </div>
 
 <div class="es post-container">
-    {{ "
-        (italiano)
+    {{ "(italiano)
         Parla, la gente purtroppo parla\
         Non sa di che cosa parla\
         Tu portami dove sto a galla\
@@ -55,8 +52,7 @@ tags:
         Habla, la gente por desgracia habla\
         No saben de qué mierda hablan\
         Me llevas donde estoy a flote\
-        Que me falta aire aquí\
-    " | markdownify }}
+        Que me falta aire aquí\" | markdownify }}
 </div>
 
 <div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/QN1odfjtMoo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
