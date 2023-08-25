@@ -12,12 +12,16 @@ tags:
             - Quotes
 ---
 
-{% if site.lang == "en" %}
 <div class="en post-container">
+    {% capture about_en %}
     Let us be grateful to the mirror for revealing to us our appearance only
+    {% endcapture %}
+    {{ about_en | markdownify }}
 </div>
-{% elsif site.lang == "es" %}
+
 <div class="es post-container">
+    {% capture about_es %}
     Seamos agradecidos al espejo por sólo revelar nuestro aspecto
+    {% endcapture %}
+    {{ about_es | markdownify }}
 </div>
-{% endif %}
