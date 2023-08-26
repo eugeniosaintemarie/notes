@@ -5,7 +5,7 @@ header-img:   ""
 multilingual: true
 catalog:      false
 iframe:       "https://www.youtube.com/embed/QN1odfjtMoo"
-title:        "Zitti e buoni"
+title:        "Zitti e buoni (quiet and good)"
 subtitle:     ""
 author:       "Måneskin"
 date:         2021-12-31

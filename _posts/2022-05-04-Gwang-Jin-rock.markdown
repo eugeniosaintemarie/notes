@@ -4,7 +4,7 @@ header-style: text
 header-img:   ""
 multilingual: true
 catalog:      false
-title:        "Rock"
+title:        "바위 (rock)"
 subtitle:     ""
 author:       "Gwang Jin"
 date:         2022-05-04 
