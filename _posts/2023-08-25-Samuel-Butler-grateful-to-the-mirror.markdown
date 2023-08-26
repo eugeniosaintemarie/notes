@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        "Grateful to the mirror"
 subtitle:     ""
-date:         2023-08-25
 author:       "Samuel Butler"
+date:         2023-08-25
 tags:
             - Quotes
 ---

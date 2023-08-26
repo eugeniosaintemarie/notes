@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        "Happiness"
 subtitle:     ""
-date:         2023-06-03 
 author:       "Dale Carnegie"
+date:         2023-06-03 
 tags:
             - Quotes
 ---

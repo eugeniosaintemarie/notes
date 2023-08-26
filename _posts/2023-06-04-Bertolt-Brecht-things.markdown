@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        "Things"
 subtitle:     ""
-date:         2023-06-04
 author:       "Bertolt Brecht"
+date:         2023-06-04
 tags:
             - Quotes
 ---

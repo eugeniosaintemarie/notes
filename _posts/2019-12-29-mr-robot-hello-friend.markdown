@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        "Society"
 subtitle:     "hello_friend.mov"
-date:         2019-12-29 
 author:       ""
+date:         2019-12-29 
 tags:
             - Movies/Shows
 ---

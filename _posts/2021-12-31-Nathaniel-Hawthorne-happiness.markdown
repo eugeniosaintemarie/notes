@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        "Happiness"
 subtitle:     ""
-date:         2021-12-31 
 author:       "Nathaniel Hawthorne"
+date:         2021-12-31 
 tags:
             - Quotes
 ---

@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        "危机与机会 (crisis and opportunity)"
 subtitle:     "'Opportunity in crisis'"
-date:         2023-08-06
 author:       ""
+date:         2023-08-06
 tags:
             - Philosophy
 ---

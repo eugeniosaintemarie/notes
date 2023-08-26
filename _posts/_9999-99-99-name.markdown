@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        ""
 subtitle:     ""
-date:         9999-99-99
 author:       ""
+date:         9999-99-99
 tags:
             - Tag
 ---

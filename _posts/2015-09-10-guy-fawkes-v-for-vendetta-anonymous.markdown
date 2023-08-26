@@ -9,7 +9,7 @@ subtitle:     ""
 author:       ""
 date:         2015-09-10
 tags:
-              - Stories
+            - Stories
 ---
 
 >La popularidad de "V for Vendetta", originada en la novela gráfica escrita por Alan Moore e ilustrada principalmente por David Lloyd, y posteriormente amplificada por la película dirigida por James McTeigue, encuentra sus raíces en el año 1604 gracias a un individuo llamado Guy Fawkes.

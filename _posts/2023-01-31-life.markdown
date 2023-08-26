@@ -6,8 +6,8 @@ multilingual: true
 catalog:      false
 title:        "Life"
 subtitle:     ""
-date:         2023-01-30 
 author:       ""
+date:         2023-01-30 
 tags:
             - Quotes
 ---

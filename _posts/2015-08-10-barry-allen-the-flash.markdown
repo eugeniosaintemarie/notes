@@ -6,8 +6,8 @@ multilingual: false
 catalog:      true
 title:        "Barry Allen, The Flash"
 subtitle:     "La historia de Flash previa al reinicio del universo DC en 'The New 52'"
-date:         2015-08-10
 author:       ""
+date:         2015-08-10
 tags:
             - Stories
 published:    true
