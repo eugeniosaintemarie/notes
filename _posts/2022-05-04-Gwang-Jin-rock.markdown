@@ -25,7 +25,9 @@ tags:
         <br><br>
         I don’t break, ash, nor decay as I go against nature’s way\
         I survive\
-        I’m a diamond" | markdownify }}
+        I’m a diamond\
+        <br><br>
+        (korean)" | markdownify }}
 </div>
 
 <div class="es post-container">
@@ -41,7 +43,9 @@ tags:
         <br><br>
         No me quiebro, ni me deshago, ni me descompongo al ir en contra de la naturaleza\
         Sobrevivo\
-        Soy un diamante" | markdownify }}
+        Soy un diamante\
+        <br><br>
+        (koreano)" | markdownify }}
 </div>
 
 <div class="ko post-container">
