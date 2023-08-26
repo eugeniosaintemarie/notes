@@ -960,17 +960,6 @@ samp {
   -o-background-size: cover;
   margin-bottom: 0;
 }
-.intro-header::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: -20px;
-  right: -20px;
-  bottom: -20px;
-  background: inherit;
-  filter: blur(10px);
-  z-index: 0;
-}
 .intro-header.style-text {
   background: none;
 }
