@@ -1,7 +1,7 @@
 _site
 _posts/_draft
-_posts/_tags
-_tags
+_posts/_archive
+_archive
 node_modules
 .vscode
 *.log
