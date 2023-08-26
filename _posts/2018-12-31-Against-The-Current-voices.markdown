@@ -25,7 +25,7 @@ tags:
     {{ "¿Cuándo dejarán las voces de crear problemas en mi interior?\
         Si me miro en el espejo, ¿veré a través de sus ojos?\
         ¿Cuándo pararán las voces de mi cabeza y me dejarán descansar?\
-        No puedo soportarlo.\
+        No puedo soportarlo\
         Aquí vienen las voces de nuevo" | markdownify }}
 </div>
 

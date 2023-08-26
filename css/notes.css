@@ -1653,6 +1653,10 @@ em {
 .post-container .pager li a span:hover {
   color: #f8f8f8 !important;
 }
+span .post-text-lang {
+  font-size: italic;
+  color: #404040;
+}
 .iframe-youtube {
   position: relative;
   padding-bottom: 56.25%;
