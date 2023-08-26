@@ -13,9 +13,11 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ "Before sex you help each other get naked, after sex you only dress yourself. Moral of the story: in life no one helps you once you're fucked." | markdownify }}
+    {{ "Before sex you help each other get naked, after sex you only dress yourself.\
+    Moral of the story: in life no one helps you once you're fucked." | markdownify }}
 </div>
 
 <div class="es post-container">
-    {{ "Antes del sexo se ayudan mutuamente a desnudarse, después del sexo te vestis solo vos. Moraleja de la historia: en la vida nadie te ayuda una vez que estas cogido." | markdownify }}
+    {{ "Antes del sexo se ayudan mutuamente a desnudarse, después del sexo te vestis solo vos.\
+    Moraleja de la historia: en la vida nadie te ayuda una vez que estas cogido." | markdownify }}
 </div>

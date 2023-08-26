@@ -17,5 +17,5 @@ tags:
 </div>
 
 <div class="es post-container">
-    {{ "Si no curas lo que te hirió, sangrarás sobre gente que no te cortó." | markdownify }}
+    {{ "Si no curas lo que te lastimo, sangrarás sobre gente que no te cortó." | markdownify }}
 </div>

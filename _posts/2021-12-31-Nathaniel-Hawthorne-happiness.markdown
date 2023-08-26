@@ -13,9 +13,9 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ "Happiness is like a butterfly which, when pursued, is always beyond our grasp, but, if you will sit down quietly, may alight upon you." | markdownify }}
+    {{ "Happiness is like a butterfly which, when pursued, is always beyond our grasp, but if you will sit down quietly, may alight upon you." | markdownify }}
 </div>
 
 <div class="es post-container">
-    {{ "La felicidad es como una mariposa que, cuando se persigue, está siempre fuera de nuestro alcance, pero que, si te sientas tranquilamente, puede posarse sobre ti." | markdownify }}
+    {{ "La felicidad es como una mariposa que, cuando se persigue, está siempre fuera de nuestro alcance, pero si te sentas tranquilamente, puede posarse sobre ti." | markdownify }}
 </div>

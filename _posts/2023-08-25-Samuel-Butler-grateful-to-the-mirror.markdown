@@ -17,5 +17,5 @@ tags:
 </div>
 
 <div class="es post-container">
-    {{ "Seamos agradecidos al espejo por sólo revelar nuestro aspecto." | markdownify }}
+    {{ "Seamos agradecidos al espejo por sólo revelarnos nuestro aspecto." | markdownify }}
 </div>

@@ -23,8 +23,8 @@ tags:
 
 <div class="es post-container">
     {{ "¿Cuándo dejarán las voces de crear problemas en mi interior?\
-        Si me miro en el espejo, ¿veré a través de sus ojos?\
-        ¿Cuándo pararán las voces de mi cabeza y me dejarán descansar?\
+        Si miro en el espejo, ¿veré a través de sus ojos?\
+        ¿Cuándo pararán las voces en mi cabeza y me dejarán descansar?\
         No puedo soportarlo\
         Aquí vienen las voces de nuevo" | markdownify }}
 </div>
