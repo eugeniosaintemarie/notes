@@ -1654,7 +1654,7 @@ em {
   color: #f8f8f8 !important;
 }
 .post-container span  {
-  font-size: italic;
+  font-size: italic !important;
   color: #404040;
 }
 .iframe-youtube {
