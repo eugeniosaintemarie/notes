@@ -1489,6 +1489,17 @@ img::-moz-selection {
   height: auto;
   margin: 1.5em auto 1.6em;
 }
+@media (max-width: 991px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .postlist-container {
+    order: 2;
+  }
+  .sidebar-container {
+    order: 1;
+  }
+}
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: inherit;
