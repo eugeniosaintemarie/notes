@@ -34,7 +34,7 @@ tags:
         Habla, la gente por desgracia habla\
         No saben de qué mierda hablan\
         Me llevas donde estoy a flote\
-        Que me falta aire aquí\
+        Que me falta aire aquí
         <br><br>
         <span>(italiano)</span>" | markdownify }}
 </div>
