@@ -27,7 +27,7 @@ tags:
         I survive\
         I’m a diamond\
         <br><br>
-        <span class="post-text-lang">(korean)</span>" | markdownify }}
+        <span>(korean)</span>" | markdownify }}
 </div>
 
 <div class="es post-container">
@@ -45,7 +45,7 @@ tags:
         Sobrevivo\
         Soy un diamante\
         <br><br>
-        <span class="post-text-lang">(koreano)</span>" | markdownify }}
+        <span>(koreano)</span>" | markdownify }}
 </div>
 
 <div class="ko post-container">

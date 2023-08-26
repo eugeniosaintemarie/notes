@@ -1653,7 +1653,7 @@ em {
 .post-container .pager li a span:hover {
   color: #f8f8f8 !important;
 }
-span .post-text-lang {
+.post-container span  {
   font-size: italic;
   color: #404040;
 }
