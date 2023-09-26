@@ -13,9 +13,9 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ ""Aeria gloris" in the Macaronic language translates as "Glorious Heaven"." | markdownify }}
+    {{ "'Aeria gloris' in the Macaronic language translates as 'glorious heaven'." | markdownify }}
 </div>
 
 <div class="es post-container">
-    {{ ""Aeria gloris" en el lenguaje macarrónico se traduce como "Cielo glorioso"." | markdownify }}
+    {{ "'Aeria gloris' en el lenguaje macarrónico se traduce como 'cielo glorioso'." | markdownify }}
 </div>
