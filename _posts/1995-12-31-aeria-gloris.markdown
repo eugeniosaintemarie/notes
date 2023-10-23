@@ -5,8 +5,8 @@ header-img:   ""
 multilingual: true
 catalog:      false
 title:        "Aeria gloris"
-subtitle:     "Ghost In The Shell"
-author:       ""
+subtitle:     ""
+author:       "Ghost In The Shell"
 date:         1995-12-31 
 tags:
             - Culture

@@ -5,7 +5,7 @@ header-img:   ""
 multilingual: true
 catalog:      false
 title:        "Acta non verba"
-subtitle:     ""
+subtitle:     "Actions over promises"
 author:       ""
 date:         2023-09-25 
 tags:
