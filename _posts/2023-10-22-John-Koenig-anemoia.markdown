@@ -6,7 +6,7 @@ multilingual: true
 catalog:      false
 title:        "Anemoia"
 subtitle:     "Nostalgia for a time you’ve never known"
-author:       ""
+author:       "John Koenig"
 date:         2023-10-22 
 tags:
             - Philosophy
