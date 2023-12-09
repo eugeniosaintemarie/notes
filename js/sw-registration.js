@@ -19,7 +19,7 @@ function handleRegistration(registration) {
 
 if (navigator.serviceWorker) {
   navigator.serviceWorker
-    .register('/sw.js')
+    .register('/notes/sw.js')
     .then((registration) => handleRegistration(registration))
     .catch((error) => { console.log('ServiceWorker registration failed: ', error) })
 
