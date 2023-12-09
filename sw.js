@@ -24,6 +24,14 @@ const HOSTNAME_WHITELIST = [
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
 
+const staticNOTES = "notes"
+const assets = [
+  "/notes/index.html",
+  "/notes/style.css",
+  "/notes/app.js",
+  "/notes/logo.png",
+]
+
 const getCacheBustingUrl = (req) => {
   var now = Date.now();
   url = new URL(req.url)
@@ -46,15 +54,13 @@ const getRedirectUrl = (req) => {
   return url.href
 }
 
-self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE).then(cache => {
-      return cache.addAll(PRECACHE_LIST)
-        .then(self.skipWaiting())
-        .catch(err => console.log(err))
+self.addEventListener("install", installEvent => {
+  installEvent.waitUntil(
+    caches.open(staticNOTES).then(cache => {
+      cache.addAll(assets)
     })
   )
-});
+})
 
 self.addEventListener('activate', event => {
   caches.keys().then(cacheNames => Promise.all(
@@ -89,52 +95,52 @@ var fetchHelper = {
 }
 
 self.addEventListener('fetch', event => {
-        //console.log(`fetch ${event.request.url}`)
-        //console.log(` - type: ${event.request.type}; destination: ${event.request.destination}`)
-        //console.log(` - mode: ${event.request.mode}, accept: ${event.request.headers.get('accept')}`)
+  //console.log(`fetch ${event.request.url}`)
+  //console.log(` - type: ${event.request.type}; destination: ${event.request.destination}`)
+  //console.log(` - mode: ${event.request.mode}, accept: ${event.request.headers.get('accept')}`)
 
-        if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
+  if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
 
-          if (shouldRedirect(event.request)) {
-            event.respondWith(Response.redirect(getRedirectUrl(event.request)))
-            return;
-          }
+    if (shouldRedirect(event.request)) {
+      event.respondWith(Response.redirect(getRedirectUrl(event.request)))
+      return;
+    }
 
-          if (event.request.url.indexOf('ys.static') > -1) {
-            event.respondWith(fetchHelper.cacheFirst(event.request.url))
-            return;
-          }
+    if (event.request.url.indexOf('ys.static') > -1) {
+      event.respondWith(fetchHelper.cacheFirst(event.request.url))
+      return;
+    }
 
-          const cached = caches.match(event.request);
-          const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
-          const fetchedCopy = fetched.then(resp => resp.clone());
+    const cached = caches.match(event.request);
+    const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
+    const fetchedCopy = fetched.then(resp => resp.clone());
 
-          event.respondWith(
-            Promise.race([fetched.catch(_ => cached), cached])
-              .then(resp => resp || fetched)
-              .catch(_ => caches.match('offline.html'))
-          );
+    event.respondWith(
+      Promise.race([fetched.catch(_ => cached), cached])
+        .then(resp => resp || fetched)
+        .catch(_ => caches.match('offline.html'))
+    );
 
-          event.waitUntil(
-            Promise.all([fetchedCopy, caches.open(CACHE)])
-              .then(([response, cache]) => response.ok && cache.put(event.request, response))
-              .catch(_ => { })
-          );
+    event.waitUntil(
+      Promise.all([fetchedCopy, caches.open(CACHE)])
+        .then(([response, cache]) => response.ok && cache.put(event.request, response))
+        .catch(_ => { })
+    );
 
-          if (isNavigationReq(event.request)) {
-            console.log(`fetch ${event.request.url}`)
-            event.waitUntil(revalidateContent(cached, fetchedCopy))
-          }
-        }
-      });
+    if (isNavigationReq(event.request)) {
+      console.log(`fetch ${event.request.url}`)
+      event.waitUntil(revalidateContent(cached, fetchedCopy))
+    }
+  }
+});
 
-  function sendMessageToAllClients(msg) {
-    self.clients.matchAll().then(clients => {
-      clients.forEach(client => {
-        console.log(client);
-        client.postMessage(msg)
-      })
+function sendMessageToAllClients(msg) {
+  self.clients.matchAll().then(clients => {
+    clients.forEach(client => {
+      console.log(client);
+      client.postMessage(msg)
     })
+  })
 }
 
 function sendMessageToClientsAsync(msg) {
