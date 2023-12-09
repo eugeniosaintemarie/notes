@@ -36,7 +36,7 @@ const getCacheBustingUrl = (req) => {
 
 const isNavigationReq = (req) => (req.mode === 'navigate' || (req.method === 'GET' && req.headers.get('accept').includes('text/html')))
 
-const endWithExtension = (req) => Boolean(new URL(req.url).pathname.match(/\.\w+$/))
+const endWithExtension = (req) => Boolean(new URL(req.url).pathname.match(/\.\w+$/u))
 
 const shouldRedirect = (req) => (isNavigationReq(req) && new URL(req.url).pathname.substr(-1) !== "/" && !endWithExtension(req))
 
@@ -84,57 +84,58 @@ var fetchHelper = {
   cacheFirst: function (url) {
     return caches.match(url)
       .then(resp => resp || this.fetchThenCache(url))
-      .catch(_ => {/ })
-  }
+      .catch(_ => {
+        / })
+      }
 }
 
 self.addEventListener('fetch', event => {
-  //console.log(`fetch ${event.request.url}`)
-  //console.log(` - type: ${event.request.type}; destination: ${event.request.destination}`)
-  //console.log(` - mode: ${event.request.mode}, accept: ${event.request.headers.get('accept')}`)
+        //console.log(`fetch ${event.request.url}`)
+        //console.log(` - type: ${event.request.type}; destination: ${event.request.destination}`)
+        //console.log(` - mode: ${event.request.mode}, accept: ${event.request.headers.get('accept')}`)
 
-  if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
+        if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
 
-    if (shouldRedirect(event.request)) {
-      event.respondWith(Response.redirect(getRedirectUrl(event.request)))
-      return;
-    }
+          if (shouldRedirect(event.request)) {
+            event.respondWith(Response.redirect(getRedirectUrl(event.request)))
+            return;
+          }
 
-    if (event.request.url.indexOf('ys.static') > -1) {
-      event.respondWith(fetchHelper.cacheFirst(event.request.url))
-      return;
-    }
+          if (event.request.url.indexOf('ys.static') > -1) {
+            event.respondWith(fetchHelper.cacheFirst(event.request.url))
+            return;
+          }
 
-    const cached = caches.match(event.request);
-    const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
-    const fetchedCopy = fetched.then(resp => resp.clone());
+          const cached = caches.match(event.request);
+          const fetched = fetch(getCacheBustingUrl(event.request), { cache: "no-store" });
+          const fetchedCopy = fetched.then(resp => resp.clone());
 
-    event.respondWith(
-      Promise.race([fetched.catch(_ => cached), cached])
-        .then(resp => resp || fetched)
-        .catch(_ => caches.match('offline.html'))
-    );
+          event.respondWith(
+            Promise.race([fetched.catch(_ => cached), cached])
+              .then(resp => resp || fetched)
+              .catch(_ => caches.match('offline.html'))
+          );
 
-    event.waitUntil(
-      Promise.all([fetchedCopy, caches.open(CACHE)])
-        .then(([response, cache]) => response.ok && cache.put(event.request, response))
-        .catch(_ => { })
-    );
+          event.waitUntil(
+            Promise.all([fetchedCopy, caches.open(CACHE)])
+              .then(([response, cache]) => response.ok && cache.put(event.request, response))
+              .catch(_ => { })
+          );
 
-    if (isNavigationReq(event.request)) {
-      console.log(`fetch ${event.request.url}`)
-      event.waitUntil(revalidateContent(cached, fetchedCopy))
-    }
-  }
-});
+          if (isNavigationReq(event.request)) {
+            console.log(`fetch ${event.request.url}`)
+            event.waitUntil(revalidateContent(cached, fetchedCopy))
+          }
+        }
+      });
 
-function sendMessageToAllClients(msg) {
-  self.clients.matchAll().then(clients => {
-    clients.forEach(client => {
-      console.log(client);
-      client.postMessage(msg)
+  function sendMessageToAllClients(msg) {
+    self.clients.matchAll().then(clients => {
+      clients.forEach(client => {
+        console.log(client);
+        client.postMessage(msg)
+      })
     })
-  })
 }
 
 function sendMessageToClientsAsync(msg) {
