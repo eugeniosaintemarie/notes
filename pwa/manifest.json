@@ -5,8 +5,8 @@
   "start_url": "/notes/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#fff",
-  "theme_color": "#000",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "https://eugeniosaintemarie.github.io/notes/pwa/icons/icon-72x72.png",
