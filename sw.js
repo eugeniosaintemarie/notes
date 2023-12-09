@@ -84,9 +84,8 @@ var fetchHelper = {
   cacheFirst: function (url) {
     return caches.match(url)
       .then(resp => resp || this.fetchThenCache(url))
-      .catch(_ => {
-        / })
-      }
+      .catch(_ => { })
+  }
 }
 
 self.addEventListener('fetch', event => {
