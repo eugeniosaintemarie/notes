@@ -1,6 +1,7 @@
 const staticNOTES = "notes"
 const assets = [
   "/notes/index.html",
+  "/notes/js/sw-registration.js",
 ]
 
 self.addEventListener("install", installEvent => {
