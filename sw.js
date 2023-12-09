@@ -42,7 +42,7 @@ const shouldRedirect = (req) => (isNavigationReq(req) && new URL(req.url).pathna
 
 const getRedirectUrl = (req) => {
   url = new URL(req.url)
-  url.pathname += "/"
+  url.pathname += "/notes/"
   return url.href
 }
 
