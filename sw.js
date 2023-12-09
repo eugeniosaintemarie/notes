@@ -3,16 +3,16 @@ const CACHE_NAMESPACE = 'main-'
 const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 const PRECACHE_LIST = [
   "./notes/",
-  "./offline.html",
-  "./js/jquery.min.js",
-  "./js/bootstrap.min.js",
-  "./js/notes.min.js",
-  "./js/snackbar.js",
-  "./img/avatar.jpg",
-  "./img/home-bg.jpg",
-  "./img/404-bg.jpg",
-  "./css/notes.min.css",
-  "./css/bootstrap.min.css"
+  "./notes/offline.html",
+  "./notes/js/jquery.min.js",
+  "./notes/js/bootstrap.min.js",
+  "./notes/js/notes.min.js",
+  "./notes/js/snackbar.js",
+  "./notes/img/avatar.jpg",
+  "./notes/img/home-bg.jpg",
+  "./notes/img/404-bg.jpg",
+  "./notes/css/notes.min.css",
+  "./notes/css/bootstrap.min.css"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
   // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
@@ -54,14 +54,6 @@ const getRedirectUrl = (req) => {
   return url.href
 }
 
-self.addEventListener("install", installEvent => {
-  installEvent.waitUntil(
-    caches.open(staticNOTES).then(cache => {
-      cache.addAll(assets)
-    })
-  )
-})
-
 self.addEventListener('activate', event => {
   caches.keys().then(cacheNames => Promise.all(
     cacheNames
@@ -71,6 +63,14 @@ self.addEventListener('activate', event => {
   console.log('service worker activated.')
   event.waitUntil(self.clients.claim());
 });
+
+self.addEventListener("install", installEvent => {
+  installEvent.waitUntil(
+    caches.open(staticNOTES).then(cache => {
+      cache.addAll(assets)
+    })
+  )
+})
 
 var fetchHelper = {
 
@@ -134,21 +134,6 @@ self.addEventListener('fetch', event => {
   }
 });
 
-function sendMessageToAllClients(msg) {
-  self.clients.matchAll().then(clients => {
-    clients.forEach(client => {
-      console.log(client);
-      client.postMessage(msg)
-    })
-  })
-}
-
-function sendMessageToClientsAsync(msg) {
-  setTimeout(() => {
-    sendMessageToAllClients(msg)
-  }, 1000)
-}
-
 function revalidateContent(cachedResp, fetchedResp) {
   return Promise.all([cachedResp, fetchedResp])
     .then(([cached, fetched]) => {
@@ -163,4 +148,19 @@ function revalidateContent(cachedResp, fetchedResp) {
       }
     })
     .catch(err => console.log(err))
+}
+
+function sendMessageToAllClients(msg) {
+  self.clients.matchAll().then(clients => {
+    clients.forEach(client => {
+      console.log(client);
+      client.postMessage(msg)
+    })
+  })
+}
+
+function sendMessageToClientsAsync(msg) {
+  setTimeout(() => {
+    sendMessageToAllClients(msg)
+  }, 1000)
 }
