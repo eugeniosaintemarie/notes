@@ -951,7 +951,7 @@ samp {
   }
 }
 .intro-header {
-  background: no-repeat center center;
+  background: no-repeat bottom;
   background-color: #ccc;
   background-attachment: scroll;
   -webkit-background-size: cover;
