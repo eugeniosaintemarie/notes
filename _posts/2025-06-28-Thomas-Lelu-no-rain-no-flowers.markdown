@@ -7,7 +7,7 @@ catalog:      false
 title:        "No rain no flowers"
 subtitle:     "Rain bring flowers"
 author:       "Thomas Lelu"
-date:         2023-09-25 
+date:         2025-06-28 
 tags:
-            - Philosophy
+            - Quotes
 ---
