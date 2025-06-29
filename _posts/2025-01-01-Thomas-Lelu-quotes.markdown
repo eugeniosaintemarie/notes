@@ -15,7 +15,17 @@ tags:
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-<style>.post-content, .post-content * {font-family: "Nanum Pen Script", cursive !important; font-weight: 400; font-style: normal;}</style>
+<style>
+.post-container h1,
+.post-container h2,
+.post-container h3,
+.post-container h4,
+.post-container h5,
+.post-container h6,
+.side-catalog .catalog-body li a {
+  font-family: "Nanum Pen Script", cursive !important;
+}
+</style>
 
 # Just because its taking time, doesn't mean its not happening
 
