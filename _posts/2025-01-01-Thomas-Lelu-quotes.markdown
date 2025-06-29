@@ -18,8 +18,8 @@ tags:
 <style>.nanum-pen-script-regular { font-family: "Nanum Pen Script", cursive; font-weight: 400; font-style: normal;}</style>
 
 <div class="nanum-pen-script-regular">
-
-Just because its taking time, doesn't mean its not happening
+<br><br>
+#Just because its taking time, doesn't mean its not happening
 <br><br>
 No rain, no flowers
 <br><br>
@@ -133,5 +133,5 @@ Nothing changes if nothing changes
 Nobody is too busy, it's just a matter of priorities
 <br><br>
 Creative people need time to sit around and do nothing
-
+<br><br>
 </div>
