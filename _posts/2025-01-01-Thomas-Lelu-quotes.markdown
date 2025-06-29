@@ -33,11 +33,11 @@ tags:
 
 # Rain bring flowers
 
-When looking back doesn't interest you anymore, you're doing something right
+# When looking back doesn't interest you anymore, you're doing something right
 
-There is no "right time", just <u>time</u> (and what we do with it)
+# There is no "right time", just <u>time</u> (and what we do with it)
 
-You will never be ready, just <u>start</u>
+# You will never be ready, just <u>start</u>
 
 Well done it's better than well said
 
