@@ -121,9 +121,9 @@ tags:
 # Dream until it's YOUR <u>reality</u>
 
 # 3 wishes:
-1. to earn money without working
-2. to love without being hurt
-3. to eat without getting fat
+## 1. to earn money without working
+## 2. to love without being hurt
+## 3. to eat without getting fat
 
 # Life is about balance: 50% namaste 50% fuck off
 
