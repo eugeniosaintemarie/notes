@@ -13,6 +13,8 @@ tags:
             - Songs
 ---
 
+<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/wK-8TCDrbV8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
 <div class="en post-container">
     {{ "Watch me, take a good thing and fuck it all up in one night\
         Catch me, I'm the one on the run away from the headlights\
@@ -50,5 +52,3 @@ tags:
         Sin dormir, despierto toda la semana perdiendo el tiempo con gente que no me gusta\
         Creo que algo esta jodidamente mal conmigo" | markdownify }}
 </div>
-
-<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/wK-8TCDrbV8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>

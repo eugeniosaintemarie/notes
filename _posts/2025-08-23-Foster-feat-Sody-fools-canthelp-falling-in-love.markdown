@@ -7,7 +7,7 @@ catalog:      false
 iframe:       "https://www.youtube.com/embed/wEINlbIcVS0?si=vZRnLVymXCQT31Ck&amp;controls=0"
 title:        "Fools (can't help falling in love)"
 subtitle:     ""
-author:       "Foster feat Sody"
+author:       "Foster feat. Sody"
 date:         2025-08-23
 tags:
             - Songs

@@ -13,6 +13,8 @@ tags:
             - Songs
 ---
 
+<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/QN1odfjtMoo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
 <div class="en post-container">
     {{ "Talk, people unfortunately talk\
         They don't know what they're talking about\
@@ -49,5 +51,3 @@ tags:
         Tu portami dove sto a galla\
         Che qui mi manca l'aria" | markdownify }}
 </div>
-
-<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/QN1odfjtMoo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>

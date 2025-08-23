@@ -13,6 +13,8 @@ tags:
             - Songs
 ---
 
+<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/oXFEMV919Pk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
 <div class="en post-container">
     {{ "When will the voices stop making trouble inside?\
         If I look in the mirror will I see through their eyes?\
@@ -28,5 +30,3 @@ tags:
         No puedo soportarlo\
         Aquí vienen las voces de nuevo" | markdownify }}
 </div>
-
-<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/oXFEMV919Pk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>

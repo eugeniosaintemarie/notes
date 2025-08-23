@@ -13,6 +13,8 @@ tags:
             - Songs
 ---
 
+<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/vhumOLNSSJY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
 <div class="en post-container">
     {{ "Yeah, been this way so long\
         It feels like something's off when I'm not depressed\
@@ -50,5 +52,3 @@ tags:
         Perdiendo la esperanza, yendo por un camino peligroso\
         Es extraño, lo sé, pero me siento más como en casa cuando estoy" | markdownify }}
 </div>
-
-<div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/vhumOLNSSJY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
