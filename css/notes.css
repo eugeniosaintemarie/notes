@@ -1190,6 +1190,12 @@ samp {
   margin-bottom: 0;
 }
 
+@media only screen and (min-width: 992px) {
+  .intro-header {
+    background-position: center bottom !important;
+  }
+}
+
 .intro-header.style-text {
   background: none;
 }
