@@ -11,7 +11,6 @@ description: ""
     .intro-header .site-heading h1, .intro-header .page-heading h1 {font-size: 60px !important;}
   }
   
-  /* Overlay para el mensaje inicial */
   #welcome-overlay {
     position: fixed;
     top: 0;
@@ -29,16 +28,13 @@ description: ""
     visibility: hidden;
     transition: opacity 0.5s ease-in-out;
   }
-  
   #welcome-overlay.active {
     opacity: 1;
     visibility: visible;
   }
-  
   #welcome-overlay.fade-out {
     opacity: 0;
   }
-  
   #welcome-message {
     font-family: 'Inconsolata', monospace;
     font-size: 2em;
@@ -47,17 +43,14 @@ description: ""
     padding: 0 20px;
     max-width: 90%;
   }
-  
   #welcome-message::after {
     content: '|';
     animation: blink 0.7s infinite;
   }
-  
   @keyframes blink {
     0%, 50% { opacity: 1; }
     51%, 100% { opacity: 0; }
   }
-  
   @media only screen and (max-width: 768px) {
     #welcome-message {
       font-size: 1.5em;
@@ -65,22 +58,17 @@ description: ""
   }
 </style>
 
-<!-- Overlay para el mensaje de bienvenida -->
 <div id="welcome-overlay">
   <div id="welcome-message"></div>
 </div>
 
 <script>
   (function() {
-    // La frase que se va a mostrar
     const message = "I wanna know if I tell you a secret, will you keep it?";
     const welcomeOverlay = document.getElementById('welcome-overlay');
     const welcomeMessage = document.getElementById('welcome-message');
-    
     let charIndex = 0;
     let typingInterval;
-    
-    // Función para el efecto de escritura
     function typeWriter() {
       if (charIndex < message.length) {
         welcomeMessage.textContent += message.charAt(charIndex);
@@ -89,19 +77,11 @@ description: ""
         clearInterval(typingInterval);
       }
     }
-    
-    // Iniciar la animación después de 2 segundos
     setTimeout(function() {
       welcomeOverlay.classList.add('active');
-      
-      // Iniciar el efecto de escritura
-      typingInterval = setInterval(typeWriter, 50); // 50ms entre cada letra
-      
-      // Ocultar después de 5 segundos
+      typingInterval = setInterval(typeWriter, 50);
       setTimeout(function() {
         welcomeOverlay.classList.add('fade-out');
-        
-        // Remover del DOM después de la transición
         setTimeout(function() {
           welcomeOverlay.style.display = 'none';
         }, 500);
