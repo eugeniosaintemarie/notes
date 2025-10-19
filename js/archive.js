@@ -66,6 +66,12 @@
         hasInit = true;
       }
 
+      const limit = parseInt($result.data('limit')) || Infinity;
+      const visibleItems = $result.find('.item:not(.d-none)');
+      if (visibleItems.length > limit) {
+        visibleItems.slice(limit).addClass('d-none');
+      }
+
       if (target) {
         buttonFocus(target);
         const _tag = target.attr('data-encode');

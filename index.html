@@ -108,9 +108,9 @@ description: ""
   {% endcapture %}
   {{ tags | split:'</a>' | sort | join:'</a>' }}
 </div>
-<div class="mini-post-list js-result">
+<div class="mini-post-list js-result" data-limit="{{ site.paginate }}">
   <section>
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 {%- assign _tags = '' -%}
 {%- for _tag in post.tags -%}
 {%- assign _tag_encode = _tag | strip | url_encode -%}
@@ -120,7 +120,7 @@ description: ""
 {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
 {%- endif -%}
 {%- endfor -%}
-<div class="post-preview item" data-tags="{{ _tags }}">
+<div class="post-preview item{% unless paginator.posts contains post %} d-none{% endunless %}" data-tags="{{ _tags }}">
   <a href="{{ post.url | prepend: site.baseurl }}">
     <h2 class="post-title">
       {{ post.title }}
