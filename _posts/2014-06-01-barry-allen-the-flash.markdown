@@ -7,7 +7,7 @@ catalog:      true
 title:        "Barry Allen, The Flash"
 subtitle:     "The Flash's history prior to the reboot of the DC universe in 'The New 52'"
 author:       ""
-date:         2015-08-10
+date:         2014-06-01
 tags:
             - Stories
 published:    true

@@ -7,7 +7,7 @@ catalog:      false
 title:        "Anemoia"
 subtitle:     "Nostalgia for a time you’ve never experienced"
 author:       "John Koenig"
-date:         2023-10-22 
+date:         2024-10-18 
 tags:
             - Philosophy
 ---

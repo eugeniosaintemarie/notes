@@ -1,14 +1,14 @@
 ---
 layout:       post
-header-style: text
-header-img:   
+header-style: 
+header-img:   "img/posts/2025-09-06-Bastille-feat-The-Chamber-Orchestra-Of-London-Million-pieces.jpg"
 multilingual: true
 catalog:      false
 iframe:       "https://www.youtube.com/embed/6OLp72eLLc4?si=vZRnLVymXCQT31Ck&amp;controls=0"
-title:    "Million pieces"
+title:        "Million pieces"
 subtitle:     ""
-author:       "Bastille feat The Chamber Orchestra Of London"
-date:     2025-09-06
+author:       "Bastille feat. The Chamber Orchestra Of London"
+date:         2025-09-06
 tags:
         - Songs
 ---

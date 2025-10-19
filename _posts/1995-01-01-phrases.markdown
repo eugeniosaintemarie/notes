@@ -8,7 +8,7 @@ iframe:       "https://eugeniosaintemarie.github.io/phrases/"
 title:        "Phrases"
 subtitle:     ""
 author:       ""
-date:         1994-12-31
+date:         1995-01-01
 tags:         
             - Quotes
 ---

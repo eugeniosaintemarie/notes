@@ -7,7 +7,7 @@ catalog:      false
 title:        "God"
 subtitle:     "k3rnel-pan1c.ksd"
 author:       "Mr. Robot"
-date:         2016-07-20
+date:         2015-06-25
 tags:
             - Movies/Shows
 ---
