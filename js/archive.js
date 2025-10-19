@@ -89,7 +89,13 @@
     tagSelect(_tag);
 
     $tags.on('click', 'a', function () {
-      tagSelect($(this).data('encode'), $(this));
+      const target = $(this);
+      const _tag = target.data('encode');
+      if (target.hasClass('focus')) {
+        tagSelect('', target);
+      } else {
+        tagSelect(_tag, target);
+      }
     });
   });
 })(jQuery);
