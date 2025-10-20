@@ -94,7 +94,6 @@ description: ""
 <div id='tag_cloud' class="tags tags-sup js-tags">
   <a class="tag-button" data-encode="">
     All
-    <sup>{{paginator.posts.size}}</sup>
   </a>
   {% capture tags %}
   {% for tag in site.tags %}{% if tag[1].size > site.featured-condition-size %}
