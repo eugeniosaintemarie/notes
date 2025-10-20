@@ -50,26 +50,29 @@
     }
 
     function tagSelect(tag, target) {
-      const sectionVisibility = sectionArticles.map(articles =>
-        articles.map(article => !tag || $(article).data('tags').split(',').includes(tag))
-      );
-
-      $sections.each((i, section) => {
-        $(section).toggleClass('d-none', !sectionVisibility[i].some(Boolean));
-        sectionArticles[i].each((j, article) => {
-          $(article).toggleClass('d-none', !sectionVisibility[i][j]);
+      if (!tag) {
+        // For "All", show only initial visible items
+        $result.find('.item').each((_, item) => {
+          $(item).toggleClass('d-none', !$(item).hasClass('initial-visible'));
         });
-      });
+        $('#pagination').show();
+      } else {
+        const sectionVisibility = sectionArticles.map(articles =>
+          articles.map(article => $(article).data('tags').split(',').includes(tag))
+        );
+
+        $sections.each((i, section) => {
+          $(section).toggleClass('d-none', !sectionVisibility[i].some(Boolean));
+          sectionArticles[i].each((j, article) => {
+            $(article).toggleClass('d-none', !sectionVisibility[i][j]);
+          });
+        });
+        $('#pagination').hide();
+      }
 
       if (!hasInit) {
         $result.removeClass('d-none');
         hasInit = true;
-      }
-
-      const limit = parseInt($result.data('limit')) || Infinity;
-      const visibleItems = $result.find('.item:not(.d-none)');
-      if (visibleItems.length > limit) {
-        visibleItems.slice(limit).addClass('d-none');
       }
 
       if (target) {

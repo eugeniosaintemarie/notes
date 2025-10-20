@@ -108,7 +108,7 @@ description: ""
   {% endcapture %}
   {{ tags | split:'</a>' | sort | join:'</a>' }}
 </div>
-<div class="mini-post-list js-result" data-limit="{{ site.paginate }}">
+<div class="mini-post-list js-result">
   <section>
 {% for post in site.posts %}
 {%- assign _tags = '' -%}
@@ -120,7 +120,7 @@ description: ""
 {%- assign _tags = _tags | append: _tag_encode | append: ',' -%}
 {%- endif -%}
 {%- endfor -%}
-<div class="post-preview item{% unless paginator.posts contains post %} d-none{% endunless %}" data-tags="{{ _tags }}">
+<div class="post-preview item initial-visible{% unless paginator.posts contains post %} d-none{% endunless %}" data-tags="{{ _tags }}">
   <a href="{{ post.url | prepend: site.baseurl }}">
     <h2 class="post-title">
       {{ post.title }}
@@ -144,6 +144,7 @@ description: ""
   </section>
 </div>
 <script src="{{ '/js/archive.js' | prepend: site.baseurl }}"></script>
+<div id="pagination" {% if paginator.total_pages > 1 %}style="display:block;"{% else %}style="display:none;"{% endif %}>
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
   {% if paginator.previous_page %}
@@ -157,3 +158,4 @@ description: ""
   {% endif %}
 </ul>
 {% endif %}
+</div>
