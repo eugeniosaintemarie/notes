@@ -1,6 +1,7 @@
 ---
 layout:       post
-header-style: 
+header-style: text
+header-img:   ""
 # header-img:   "img/posts/2026-03-15-Encontra-Tu-Mascota.jpg"
 multilingual: true
 catalog:      false
@@ -14,7 +15,7 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ "This summer I finished one of my most significant projects: [encontratumascota.ar](https://encontratumascota.ar) — a collaborative platform to reunite lost pets with their families\\
+    {{ "This summer I finished one of my most significant projects: [encontratumascota.ar](https://encontratumascota.ar/?ref=notes) — a collaborative platform to reunite lost pets with their families\\
     \\
     I've had the idea in my head for several years but never managed to materialize it.\\
     Last semester at university I submitted it as a final project for a subject (made in C# and .NET). The positive reception from my professor gave me the momentum I needed to take it a step further. I rewrote it from scratch using more recent technologies (Next.js, TypeScript and React).\\
@@ -23,11 +24,11 @@ tags:
     \\
     If it helps at least one person and/or pet as a tool to reunite or have a first family, the project was worth every line of code.\\
     \\
-    Try it here: [demo.encontratumascota.ar](https://demo.encontratumascota.ar)" | markdownify }}
+    Try it here: [demo.encontratumascota.ar](https://demo.encontratumascota.ar/?ref=notes)" | markdownify }}
 </div>
 
 <div class="es post-container">
-    {{ "Este verano terminé uno de mis proyectos más significativos: [encontratumascota.ar](https://encontratumascota.ar) — una plataforma colaborativa para reunir mascotas perdidas con sus familias\\
+    {{ "Este verano terminé uno de mis proyectos más significativos: [encontratumascota.ar](https://encontratumascota.ar/?ref=notes) — una plataforma colaborativa para reunir mascotas perdidas con sus familias\\
     \\
     Hace varios años venía con la idea en la cabeza pero nunca había logrado materializarla.\\
     El cuatrimestre pasado en la facultad la entregué como proyecto final de una materia (hecha en C# y .NET). La buena recibida de mi docente me dio el impulso que necesitaba para ir un paso más adelante. La reversioné desde cero con tecnologías más recientes (Next.js, TypeScript y React).\\
@@ -36,5 +37,5 @@ tags:
     \\
     Si al menos a una persona y/o mascota le sirve esto como herramienta para reencontrarse o tener una primera familia, el proyecto valió cada línea de código.\\
     \\
-    Probala acá: [demo.encontratumascota.ar](https://demo.encontratumascota.ar)" | markdownify }}
+    Probala acá: [demo.encontratumascota.ar](https://demo.encontratumascota.ar/?ref=notes)" | markdownify }}
 </div>
