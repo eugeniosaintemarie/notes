@@ -1,0 +1,24 @@
+---
+layout: post
+title: Test
+subtitle: testing new dashboard
+date: 2026-04-04
+header-style: 
+header-img: 
+multilingual: true
+catalog: true
+iframe: true
+iframe-url: "https://youtu.be/YB_dhxAtTjU"
+author: Eugene
+tags: ["test"]
+---
+
+<div class="iframe-youtube"><iframe src="https://youtu.be/YB_dhxAtTjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+<div class="en post-container">
+    {{ "English [content](https://youtu.be/YB_dhxAtTjU)" | markdownify }}
+</div>
+
+<div class="es post-container">
+    {{ "Spanish [content](https://youtu.be/YB_dhxAtTjU)" | markdownify }}
+</div>
