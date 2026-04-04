@@ -6,14 +6,14 @@ date: 2026-04-04
 header-style: text
 header-img: 
 multilingual: true
-catalog: true
+catalog: false
 iframe: true
-iframe-url: "https://youtu.be/YB_dhxAtTjU"
+iframe-url: "https://www.youtube.com/embed/YB_dhxAtTjU?si=nQFIEK2T5nrw5a5r"
 author: Eugene
 tags: ["test"]
 ---
 
-<div class="iframe-youtube"><iframe src="https://youtu.be/YB_dhxAtTjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="iframe-youtube"><iframe src="https://www.youtube.com/embed/YB_dhxAtTjU?si=nQFIEK2T5nrw5a5r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 <div class="en post-container">
     {{ "English [content](https://youtu.be/YB_dhxAtTjU)" | markdownify }}
