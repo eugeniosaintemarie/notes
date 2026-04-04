@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Test
 subtitle: testing new dashboard
 date: 2026-04-04
