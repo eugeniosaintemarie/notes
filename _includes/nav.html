@@ -36,15 +36,15 @@
               {% assign specific_path = "/1995/01/01/tweets" %}
               <a href="{{ specific_path | prepend: site.baseurl }}"><i class="fa fa-twitter"></i> Tweets</a>
             </li>-->
-            <!--<li>
-              <a id="repoAccessCamera" href="#" title="Photos" target="_blank"><i class="fa-solid fa-camera"></i> Camera</a>
+            <li>
+              <a data-repo="photos" href="#" title="Photos" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-camera"></i> Camera</a>
             </li>
             <li>
               <a href="https://www.pinterest.es/eugeniosaintemarie" title="Pinterest" target="_blank"><i class="fa-solid fa-thumbtack"></i> Pins</a>
             </li>
             <li>
               <a href="https://open.spotify.com/user/eugeniosaintemarie/playlists" target="_blank"><i class="fa fa-spotify"></i></a>
-            </li>-->
+            </li>
             {% endif %} {% endfor %}
           </ul>
         </div>
@@ -54,15 +54,23 @@
     <!-- /.container -->
   </nav>
   <script>
-      fetch("https://eugeniosaintemarie.github.io/config-central/url.json")
-    .then(response => response.json())
-    .then(config => {
-      const baseURL = config.baseURL;
-      const getRepoURL = (repoName) => `${baseURL}/${repoName}/`;
-      const repoName = getRepoURL("photos");
-      document.getElementById("repoAccessCamera").href = repoName;
-    })
-    .catch(error => console.error("Error loading configuration:", error));
+    (() => {
+      const siteBaseURL = "{{ site.url | replace: '/notes', '' }}".replace(/\/$/, "");
+      const buildRepoURL = (repoName, query = "") => {
+        const url = new URL(`${repoName}/`, `${siteBaseURL}/`);
+        if (query) {
+          url.search = query.startsWith("?") ? query : `?${query}`;
+        }
+        return url.toString();
+      };
+      document.querySelectorAll("[data-repo]").forEach((link) => {
+        const repoName = link.dataset.repo;
+        if (!repoName) {
+          return;
+        }
+        link.href = buildRepoURL(repoName, link.dataset.query || "");
+      });
+    })();
     var $body = document.body;
     var $toggle = document.querySelector(".navbar-toggle");
     var $navbar = document.querySelector("#notes_navbar");

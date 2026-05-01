@@ -64,7 +64,8 @@ description: ""
 
 <script>
   (function() {
-    if (window.location.pathname === '/notes/' || window.location.href === 'https://eugeniosaintemarie.github.io/notes/') {
+    const siteRootURL = new URL("{{ site.baseurl }}/", window.location.origin).toString();
+    if (window.location.pathname === '{{ site.baseurl }}/' || window.location.href === siteRootURL) {
       // Verificar si ya se mostró el overlay en esta sesión
       if (!sessionStorage.getItem('welcomeOverlayShown')) {
         const message = "I wanna know if I tell you a secret, will you keep it?";
