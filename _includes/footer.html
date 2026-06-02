@@ -10,12 +10,12 @@
         </div>
     </div>
 </footer>
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/notes.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/notes.min.js" | prepend: site.baseurl }}"></script>
 {% if site.service-worker %}
-<script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/snackbar.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/sw-registration.js" | prepend: site.baseurl }}"></script>
 {% endif %}
 <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
@@ -44,7 +44,7 @@
         $('#tag_cloud a').tagcloud();
     })
 </script>
-<script src='{{ "/js/archive.js " | prepend: site.baseurl }}'></script>
+<script src='{{ "/js/archive.js" | prepend: site.baseurl }}'></script>
 {% endif %}
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function () {
