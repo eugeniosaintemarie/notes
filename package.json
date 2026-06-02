@@ -3,10 +3,10 @@
     "title": "Eugenio Sainte Marie | Notes",
     "author": "Eugenio Sainte Marie <e.saintemarie@outlook.com>",
     "version": "1.0",
-    "homepage": "http://eugeniosaintemarie.github.io/notes",
+    "homepage": "http://notes.eugeniosm.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/eugeniosaintemarie/notes"
+        "url": "http://notes.eugeniosm.com"
     },
     "bugs": "",
     "devDependencies": {
