@@ -2,7 +2,7 @@
   "name": "∃notes",
   "short_name": "∃notes",
   "description": "",
-  "start_url": "/notes/",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
