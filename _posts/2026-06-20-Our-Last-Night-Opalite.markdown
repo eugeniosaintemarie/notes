@@ -104,7 +104,7 @@ tags:
     \\
     Pero mi mamá me dijo: Está bien\\
     Bailabas entre los relámpagos\\
-    Insomio ​​en la noche de ónice\\
+    Insomnio ​​en la noche de ónice\\
     Pero ahora, el cielo es opalescente, oh-oh, oh, oh, oh\\
     Oh, mi Señor\\
     Nunca antes había hecho a nadie como tú\\
@@ -129,7 +129,7 @@ tags:
     \\
     Y fue entonces cuando te dije: Está bien\\
     Bailabas entre los relámpagos\\
-    Insomne ​​en la noche de ónice\\
+    Insomnio ​​en la noche de ónice\\
     Pero ahora, el cielo es opalescente, oh-oh, oh, oh, oh\\
     Oh, mi Señor\\
     Nunca antes había conocido a nadie como tú\\
@@ -147,7 +147,7 @@ tags:
     \\
     No te preocupes, cariño, está bien\\
     Bailabas entre los relámpagos golpes\\
-    Oh, tan insomne ​​en la noche de ónice\\
+    Oh, tan Insomnio ​​en la noche de ónice\\
     Pero ahora, el cielo es opalescente, oh-oh, oh, oh, oh\\
     Oh, mi Señor\\
     Nunca antes había conocido a nadie como tú (No)\\
