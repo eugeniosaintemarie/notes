@@ -40,13 +40,6 @@ tags:
     Never made no one like you bеfore\\
     You had to make your own sunshine\\
     But now, thе sky is opalite, oh-oh, oh, oh, oh, oh\\
-    You might also like\\
-    Sunrise\\
-    Our Last Night\\
-    Total Eclipse of the Heart\\
-    Bonnie Tyler\\
-    stupid song\\
-    Olivia Rodrigo\\
     \\
     You couldn't understand it\\
     Why you felt alone\\
@@ -111,19 +104,12 @@ tags:
     \\
     Pero mi mamá me dijo: Está bien\\
     Bailabas entre los relámpagos\\
-    Insomne ​​en la noche de ónice\\
+    Insomio ​​en la noche de ónice\\
     Pero ahora, el cielo es opalescente, oh-oh, oh, oh, oh\\
     Oh, mi Señor\\
     Nunca antes había hecho a nadie como tú\\
     Tuviste que hacer tu tu propio sol\\
     Pero ahora, el cielo es opalescente, oh-oh, oh, oh, oh, oh\\
-    También te puede gustar\\
-    Amanecer\\
-    Nuestra última noche\\
-    Eclipse total del corazón\\
-    Bonnie Tyler\\
-    Canción estúpida\\
-    Olivia Rodrigo\\
     \\
     No podías entenderlo\\
     Por qué te sentías solo\\
