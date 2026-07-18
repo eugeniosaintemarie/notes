@@ -9,7 +9,7 @@ subtitle:     "'Opportunity in crisis'"
 author:       ""
 date:         2023-08-06
 tags:
-            - Philosophy
+            - ["Philosophy"]
 ---
 
 <div class="en post-container">

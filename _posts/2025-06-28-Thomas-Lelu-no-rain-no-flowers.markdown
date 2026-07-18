@@ -9,5 +9,5 @@ subtitle:     "Rain bring flowers"
 author:       "Thomas Lelu"
 date:         2025-06-28 
 tags:
-            - Quotes
+            - ["Quotes"]
 ---

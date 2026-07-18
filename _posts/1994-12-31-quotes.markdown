@@ -10,7 +10,7 @@ subtitle:     ""
 author:       ""
 date:         1994-12-31
 tags:
-            - Quotes
+            - ["Quotes"]
 ---
 
 <style>article, footer {display: none !important;}</style>

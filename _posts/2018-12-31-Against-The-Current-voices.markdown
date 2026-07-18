@@ -10,7 +10,7 @@ subtitle:     ""
 author:       "Against The Current"
 date:         2018-12-31
 tags:
-            - Songs
+            - ["Songs"]
 ---
 
 <div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/oXFEMV919Pk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>

@@ -9,7 +9,7 @@ subtitle:     ""
 author:       "Thomas Lelu"
 date:         2025-01-01 
 tags:
-            - Quotes
+            - ["Quotes"]
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

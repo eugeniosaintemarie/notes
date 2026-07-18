@@ -9,7 +9,7 @@ subtitle:     ""
 author:       ""
 date:         2014-07-01
 tags:
-            - Stories
+            - ["Stories"]
 ---
 
 <div class="en post-container">

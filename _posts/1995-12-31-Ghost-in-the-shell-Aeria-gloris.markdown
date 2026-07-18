@@ -9,7 +9,7 @@ subtitle:     ""
 author:       "Ghost in the shell (1995)"
 date:         1995-12-31 
 tags:
-            - Philosophy
+            - ["Philosophy"]
 ---
 
 <div class="en post-container">

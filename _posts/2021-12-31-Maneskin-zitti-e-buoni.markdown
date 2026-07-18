@@ -10,7 +10,7 @@ subtitle:     ""
 author:       "Måneskin"
 date:         2021-12-31
 tags:
-            - Songs
+            - ["Songs"]
 ---
 
 <div class="iframe-youtube"><iframe src="https://www.youtube-nocookie.com/embed/QN1odfjtMoo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>

@@ -9,7 +9,7 @@ subtitle:     "k3rnel-pan1c.ksd"
 author:       "Mr. Robot"
 date:         2015-06-25
 tags:
-            - Movies/Shows
+            - ["Movies/Shows"]
 ---
 
 <div class="en post-container">

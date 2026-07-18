@@ -9,5 +9,5 @@ subtitle:     ""
 author:       "Thomas Lelu"
 date:         2025-01-11
 tags:
-            - Quotes
+            - ["Quotes"]
 ---

@@ -9,7 +9,7 @@ subtitle:     ""
 author:       "John Koenig"
 date:         2024-09-17 
 tags:
-            - Philosophy
+            - ["Philosophy"]
 ---
 
 <div class="en post-container">

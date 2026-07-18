@@ -9,7 +9,7 @@ subtitle:     ""
 author:       "Bertolt Brecht"
 date:         2023-06-04
 tags:
-            - Quotes
+            - ["Quotes"]
 ---
 
 <div class="en post-container">

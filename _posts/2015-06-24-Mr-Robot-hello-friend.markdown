@@ -9,7 +9,7 @@ subtitle:     "hello_friend.mov"
 author:       "Mr. Robot"
 date:         2015-06-24 
 tags:
-            - Movies/Shows
+            - ["Movies/Shows"]
 ---
 
 <div class="en post-container">

@@ -10,7 +10,7 @@ subtitle:     ""
 author:       ""
 date:         1995-01-01
 tags:         
-            - Quotes
+            - ["Quotes"]
 ---
 
 <style>article, footer {display: none !important;}</style>

@@ -9,7 +9,7 @@ subtitle:     ""
 author:       "Ghost in the shell (1995)"
 date:         1995-11-18 
 tags:
-            - Movies/Shows
+            - ["Movies/Shows"]
 ---
 
 <div class="en post-container">

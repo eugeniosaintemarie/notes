@@ -9,7 +9,7 @@ subtitle:     ""
 author:       ""
 date:         2023-03-06 
 tags:
-            - Quotes
+            - ["Quotes"]
 ---
 
 <div class="en post-container">

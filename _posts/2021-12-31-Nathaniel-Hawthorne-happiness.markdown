@@ -9,7 +9,7 @@ subtitle:     ""
 author:       "Nathaniel Hawthorne"
 date:         2021-12-31 
 tags:
-            - Quotes
+            - ["Quotes"]
 ---
 
 <div class="en post-container">

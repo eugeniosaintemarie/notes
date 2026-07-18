@@ -9,7 +9,7 @@ subtitle:     "The Flash's history prior to the reboot of the DC universe in 'Th
 author:       ""
 date:         2014-06-01
 tags:
-            - Stories
+            - ["Stories"]
 published:    true
 ---
 

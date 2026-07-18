@@ -9,7 +9,7 @@ subtitle:     ""
 author:       "Dale Carnegie"
 date:         2023-06-03 
 tags:
-            - Quotes
+            - ["Quotes"]
 ---
 
 <div class="en post-container">

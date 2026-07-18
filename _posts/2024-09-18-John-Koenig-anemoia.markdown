@@ -9,7 +9,7 @@ subtitle:     "Nostalgia for a time you’ve never experienced"
 author:       "John Koenig"
 date:         2024-10-18 
 tags:
-            - Philosophy
+            - ["Philosophy"]
 ---
 
 <div class="en post-container">
