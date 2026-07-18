@@ -15,11 +15,11 @@ tags:
 ---
 
 <div class="en post-container">
-    {{ "{% capture about_en %}{% include posts/2022-01-04-Mika/en.md %}{% endcapture %}\\
-{{ about_en | markdownify }}" | markdownify }}
+    {% capture about_en %}{% include posts/2022-01-04-Mika/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
 </div>
 
 <div class="es post-container">
-    {{ "{% capture about_es %}{% include posts/2022-01-04-Mika/es.md %}{% endcapture %}\\
-{{ about_es | markdownify }}" | markdownify }}
+    {% capture about_es %}{% include posts/2022-01-04-Mika/es.md %}{% endcapture %}
+    {{ about_es | markdownify }}
 </div>
