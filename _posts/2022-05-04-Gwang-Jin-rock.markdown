@@ -11,6 +11,7 @@ iframe: false
 iframe-url: 
 author: Gwang Jin
 tags: ["Poems"]
+excerpt: ""
 ---
 
 <div class="en post-container">
