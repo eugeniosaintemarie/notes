@@ -16,67 +16,48 @@ tags: ["song"]
 <div class="iframe-youtube"><iframe src="https://www.youtube.com/embed/xymTF2OF1xo?si=zaiOtsf3qLeiBTqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 <div class="en post-container">
-    {{ "I had a bad habit  \\
+    {{ "I had a bad habit\\
     \\
-\\
-Of missing lovers past  \\
+Of missing lovers past\\
     \\
-\\
-My brother used to call it  \\
+My brother used to call it\\
     \\
-\\
-Eating out of the trash  \\
+Eating out of the trash\\
     \\
-\\
-It's never gonna last  \\
+It's never gonna last\\
     \\
-\\
-I thought my house was haunted  \\
+I thought my house was haunted\\
     \\
-\\
-I used to live with ghosts  \\
+I used to live with ghosts\\
     \\
-\\
-And all the perfect couples  \\
+And all the perfect couples\\
     \\
-\\
-Said, When you know, you know  \\
+Said, When you know, you know\\
     \\
-\\
 And, When you don't, you don't\\
     \\
-And all of the foes, and all of the friends  \\
+And all of the foes, and all of the friends\\
     \\
-\\
-Have seen it before, they'll see it again  \\
+Have seen it before, they'll see it again\\
     \\
-\\
-Life is a song, it ends when it ends  \\
+Life is a song, it ends when it ends\\
     \\
-\\
 I was wrong\\
     \\
-But my mama told me, It's alright  \\
+But my mama told me, It's alright\\
     \\
-\\
-You were dancing through the lightning strikes  \\
+You were dancing through the lightning strikes\\
     \\
-\\
-Sleepless in the onyx night  \\
+Sleepless in the onyx night\\
     \\
-\\
-But now, the sky is opalite, oh-oh, oh, oh, oh  \\
+But now, the sky is opalite, oh-oh, oh, oh, oh\\
     \\
-\\
-Oh, my Lord  \\
+Oh, my Lord\\
     \\
-\\
-Never made no one like you bеfore  \\
+Never made no one like you bеfore\\
     \\
-\\
-You had to make your own sunshine  \\
+You had to make your own sunshine\\
     \\
-\\
 But now, thе sky is opalite, oh-oh, oh, oh, oh, oh" | markdownify }}
 </div>
 
