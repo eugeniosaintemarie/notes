@@ -1,23 +1,24 @@
 ---
-layout:       post
-header-style: 
-header-img:   "img/posts/2022-01-04-Mika.jpg"
+layout: post
+title: Mika
+subtitle: 
+date: 2010-07-28
+header-style: text
+header-img: img/posts/2022-01-04-Mika.jpg
 multilingual: true
-catalog:      false
-title:        "Mika"
-subtitle:     ""
-author:       ""
-date:         2010-07-28 
-tags:
-            - Memories
+catalog: false
+iframe: false
+iframe-url: 
+author: 
+tags: []
 ---
 
 <div class="en post-container">
-    {% capture about_en %}{% include posts/2022-01-04-Mika/en.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+    {{ "{% capture about_en %}{% include posts/2022-01-04-Mika/en.md %}{% endcapture %}\\
+{{ about_en | markdownify }}" | markdownify }}
 </div>
 
 <div class="es post-container">
-    {% capture about_es %}{% include posts/2022-01-04-Mika/es.md %}{% endcapture %}
-    {{ about_es | markdownify }}
+    {{ "{% capture about_es %}{% include posts/2022-01-04-Mika/es.md %}{% endcapture %}\\
+{{ about_es | markdownify }}" | markdownify }}
 </div>
