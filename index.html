@@ -83,16 +83,16 @@ description: ""
         }
         setTimeout(function() {
           welcomeOverlay.classList.add('active');
-          typingInterval = setInterval(typeWriter, 30);
+          typingInterval = setInterval(typeWriter, 50);
           setTimeout(function() {
             welcomeOverlay.classList.add('fade-out');
             setTimeout(function() {
               welcomeOverlay.style.display = 'none';
             }, 500);
-          }, 2000);
+          }, 3000);
           // Marcar que ya se mostró el overlay en esta sesión
           sessionStorage.setItem('welcomeOverlayShown', 'true');
-        }, 1000);
+        }, 2000);
       }
     }
   })();
