@@ -4,7 +4,7 @@ header-style: text
 header-img:   ""
 multilingual: false
 catalog:      false
-iframe:       "https://eugeniosaintemarie.github.io/quotes/"
+iframe:       "https://eugeniosm.com/quotes/"
 title:        "Quotes"
 subtitle:     ""
 author:       ""
