@@ -4,7 +4,7 @@ header-style: text
 header-img:   ""
 multilingual: false
 catalog:      false
-iframe:       "https://eugeniosm.com/quotes/phrases/"
+iframe:       "https://eugeniosm.com/phrases/"
 title:        "Phrases"
 subtitle:     ""
 author:       ""
